@@ -1,0 +1,45 @@
+/.git/
+/.vscode/
+*.csproj
+*.sln
+*.vim
+.gitignore
+.fdignore
+
+# ThirdParty
+/Assets/Gizmos/
+/Assets/Plugins/
+/Assets/ProCamera2D/
+/Assets/ThirdParty/
+
+# Unity
+/Library/
+/Logs/
+/Packages/
+/ProjectSettings/
+/Temp/
+/UserSettings/
+/UIElementsSchema
+/obj/
+*.anim
+*.asset
+*.controller
+*.prefab
+*.meta
+*.unity
+*.inputactions
+
+# Media
+*.ase
+*.aseprite
+*.png
+*.ldtk
+*.ldtkl
+
+# OpenUPM
+/node_modules/
+/package.json
+/package-lock.json
+
+# Others
+mono_crash*
