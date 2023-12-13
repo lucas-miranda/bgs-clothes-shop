@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Game/UI/Shop/ShopItemStyle.uss?fileID=7433441132597879392&amp;guid=9462df5790fda1024942b9c93fab0bfa&amp;type=3#ShopItemStyle" />
+    <ui:VisualElement name="ItemButton">
+        <ui:Button name="Item">
+            <ui:Label name="Display" style="background-image: url(&apos;project://database/Assets/Game/Graphics/Hats/char_a_p1_5hat_pnty_v04.png?fileID=879417079&amp;guid=c2eb32cc67fd787c6bab1f8d0a2a3f24&amp;type=3#hat_display&apos;); -unity-background-scale-mode: stretch-to-fill;" />
+        </ui:Button>
+        <ui:Label text="$100" display-tooltip-when-elided="true" name="Price" style="width: auto; right: -27px; padding-right: 8px; padding-left: 14px; margin-left: 8px; margin-right: 8px;" />
+    </ui:VisualElement>
+</ui:UXML>

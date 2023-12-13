@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="ShopItem" src="project://database/Assets/Game/UI/Shop/ShopItem.uxml?fileID=9197481963319205126&amp;guid=0d1ca28d2a5e18eb5ae9df6bb4c26a6f&amp;type=3#ShopItem" />
+    <Style src="project://database/Assets/Game/UI/Shop/ShopStyle.uss?fileID=7433441132597879392&amp;guid=386b6cc90fb3fd2378fe5fcb73bc81f7&amp;type=3#ShopStyle" />
+    <ui:VisualElement name="Main" style="flex-grow: 1; align-items: center; justify-content: space-around;">
+        <ui:VisualElement name="Popup" style="justify-content: flex-start;">
+            <ui:VisualElement name="MessageBox" style="flex-direction: row;">
+                <ui:Label name="Avatar" style="background-image: url(&apos;project://database/Assets/Game/Graphics/player.png?fileID=1327484482&amp;guid=bbd822df1fbdd8c7e8726093f1a47ddf&amp;type=3#player_stand_south_01&apos;); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 64px; height: 64px; scale: 4 4;" />
+                <ui:Label text="Greetings, &#10;fashion enthusiast!" display-tooltip-when-elided="true" name="Message" style="font-size: 18px; -unity-text-align: middle-center; background-color: rgb(123, 100, 62); border-left-color: rgb(99, 82, 55); border-right-color: rgb(154, 127, 85); border-top-color: rgb(99, 82, 55); border-bottom-color: rgb(154, 127, 85); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-top-left-radius: 0; border-bottom-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; padding-left: 16px; padding-right: 16px; padding-top: 4px; padding-bottom: 4px; flex-grow: 1; color: rgba(43, 30, 11, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ItemGrid" style="flex-direction: row; flex-wrap: wrap; width: 288px; height: 216px;">
+                <ui:Instance template="ShopItem" name="ShopItem" />
+                <ui:Instance template="ShopItem" name="ShopItem" />
+                <ui:Instance template="ShopItem" name="ShopItem" />
+                <ui:Instance template="ShopItem" name="ShopItem" />
+                <ui:Instance template="ShopItem" name="ShopItem" />
+                <ui:Instance template="ShopItem" name="ShopItem" />
+                <ui:Instance template="ShopItem" name="ShopItem" />
+                <ui:Instance template="ShopItem" name="ShopItem" />
+                <ui:Instance template="ShopItem" name="ShopItem" />
+                <ui:Instance template="ShopItem" name="ShopItem" />
+                <ui:Instance template="ShopItem" name="ShopItem" />
+                <ui:Instance template="ShopItem" name="ShopItem" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

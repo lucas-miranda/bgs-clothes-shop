@@ -1,0 +1,41 @@
+#ItemButton {
+    width: 72px;
+    height: 72px;
+    overflow: visible;
+}
+
+#Item {
+    background-image: url('project://database/Assets/Game/Graphics/UI/Outline/blue.png?fileID=21300000&guid=d1e15d9e4f77a3f30ab4ebac5c57846b&type=3#blue');
+    -unity-slice-left: 1;
+    -unity-slice-top: 1;
+    -unity-slice-right: 1;
+    -unity-slice-bottom: 1;
+    -unity-background-scale-mode: stretch-to-fill;
+    width: 64px;
+    height: 64px;
+    overflow: visible;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+#Display {
+    margin-bottom: 10px;
+}
+
+#Price {
+    background-image: url('project://database/Assets/Game/Graphics/UI/UIpackSheet_transparent.png?fileID=1285832220&guid=cc161abf087a8369d82710df3381f7d5&type=3#UIpackSheet_transparent_238');
+    font-size: 11px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    color: rgb(73, 82, 84);
+    top: -35%;
+    -unity-slice-left: 4;
+    -unity-slice-top: 5;
+    -unity-slice-right: 4;
+    -unity-slice-bottom: 5;
+    -unity-background-scale-mode: stretch-to-fill;
+    translate: -22px 2px;
+    height: 18px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

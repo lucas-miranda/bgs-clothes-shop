@@ -24,5 +24,6 @@ public class Interactable : MonoBehaviour {
     }
 
     public void Interact() {
+        SendMessage("Interacted");
     }
 }
