@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Game/UI/Inventory/InventoryItemStyle.uss?fileID=7433441132597879392&amp;guid=2d24b6e664e6f25758f792e9c292fb53&amp;type=3#InventoryItemStyle" />
+    <ui:Button name="Main" class="Base Unequipped" style="-unity-background-scale-mode: stretch-to-fill; align-items: center; justify-content: center;">
+        <ui:VisualElement name="ItemIcon" style="background-image: url(&apos;project://database/Assets/Game/Graphics/Hats/magic_hat.png?fileID=879417079&amp;guid=c2eb32cc67fd787c6bab1f8d0a2a3f24&amp;type=3#magic_hat_display&apos;);" />
+    </ui:Button>
+</ui:UXML>

@@ -43,6 +43,9 @@ public class ClothierNPC : MonoBehaviour {
         availableItems.Remove(entry.data);
         inventory.AddItem(entry.data.item);
         entry.Clear();
+
+        // just close after one purchase
+        shopUI.Close();
     }
 
     private void ShopUIClosed() {

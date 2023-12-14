@@ -57,9 +57,19 @@ public class Outfit : MonoBehaviour {
             // when buying an item auto-equip if there is nothing at their slot
 
             if (GetEquippedItem(item.Kind) == null) {
-                Equip(item.Kind, item);
+                Equip(item);
             }
         }
+    }
+
+    public bool IsItemEquipped(ItemData item) {
+        foreach (EquipKind equipKind in System.Enum.GetValues(typeof(EquipKind))) {
+            if (GetEquippedItem(equipKind) == item) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     public ItemData GetEquippedItem(EquipKind kind) {
@@ -79,13 +89,13 @@ public class Outfit : MonoBehaviour {
         return null;
     }
 
-    public bool CanEquip(EquipKind kind, ItemData itemData) {
-        if (itemData == null || !parts.ContainsKey(kind)) {
+    public bool CanEquip(ItemData itemData) {
+        if (itemData == null || !parts.ContainsKey(itemData.Kind)) {
             // there is no part registered for provided EquipKind
             return false;
         }
 
-        switch (kind) {
+        switch (itemData.Kind) {
             case EquipKind.Hat:
                 return itemData is HatItemData;
             case EquipKind.Hair:
@@ -101,15 +111,15 @@ public class Outfit : MonoBehaviour {
         return false;
     }
 
-    public bool Equip(EquipKind kind, ItemData itemData) {
-        if (!CanEquip(kind, itemData)) {
+    public bool Equip(ItemData itemData) {
+        if (!CanEquip(itemData)) {
             return false;
         }
 
-        Part part = parts[kind];
+        Part part = parts[itemData.Kind];
         part.Set(itemData);
 
-        switch (kind) {
+        switch (itemData.Kind) {
             case EquipKind.Hat:
                 hat = (HatItemData) itemData;
                 break;
@@ -197,25 +207,7 @@ public class Outfit : MonoBehaviour {
         private Sprite GetSpriteOrNull(string directionName) {
 #if UNITY_EDITOR
             // try to retrieve a sprite using animation clips from animator's controller
-            AnimationClip[] clips = animator.runtimeAnimatorController.animationClips;
-
-            if (clips == null || clips.Length == 0) {
-                return null;
-            }
-
-            AnimationClip clip = AnimationClipUtil.FindContainingName(directionName, clips);
-
-            if (clip == null) {
-                // retry, but get first clip registered
-
-                if (clips.Length == 0) {
-                    return null;
-                }
-
-                clip = clips[0];
-            }
-
-            return SpriteUtil.GetFirst(clip);
+            return SpriteUtil.GetContainingNameOrFirstOrNull(animator.runtimeAnimatorController, directionName);
 #else
             // nothing to be done
             // animator will handle sprite changing for us

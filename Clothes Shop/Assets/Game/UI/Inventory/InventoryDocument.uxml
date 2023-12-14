@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="InventoryEquipKindDocument" src="project://database/Assets/Game/UI/Inventory/InventoryEquipKindDocument.uxml?fileID=9197481963319205126&amp;guid=51401e26f36cde41a8202a93b5a10709&amp;type=3#InventoryEquipKindDocument" />
+    <Style src="project://database/Assets/Game/UI/Inventory/InventoryStyle.uss?fileID=7433441132597879392&amp;guid=71d5760693bd533acab61167883ac58b&amp;type=3#InventoryStyle" />
+    <ui:VisualElement name="Main" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="Popup" style="background-color: rgb(217, 173, 150); width: 66%; height: auto; flex-direction: row; border-right-color: rgb(111, 71, 68); border-right-width: 8px; border-bottom-width: 1px; border-top-width: 1px; border-left-width: 1px; border-left-color: rgb(103, 98, 92); border-top-color: rgb(103, 98, 92); border-bottom-color: rgb(103, 98, 92); padding-top: 25px; padding-bottom: 20px; padding-left: 15px; padding-right: 0; border-bottom-left-radius: 5px; border-top-left-radius: 5px;">
+            <ui:VisualElement name="Selectors" style="width: 70%; flex-direction: row;">
+                <ui:VisualElement name="KindNames" style="height: 100%;">
+                    <ui:Label text="Hat" display-tooltip-when-elided="true" />
+                    <ui:Label text="Hair" display-tooltip-when-elided="true" />
+                    <ui:Label text="Clothes" display-tooltip-when-elided="true" />
+                    <ui:Label text="Underwear" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ItemSelectors" style="width: 75%;">
+                    <ui:Instance template="InventoryEquipKindDocument" name="Hat" class="ItemSelector" />
+                    <ui:Instance template="InventoryEquipKindDocument" name="Hair" class="ItemSelector">
+                        <AttributeOverrides element-name="Name" text="Clothes" />
+                    </ui:Instance>
+                    <ui:Instance template="InventoryEquipKindDocument" name="Clothes" class="ItemSelector">
+                        <AttributeOverrides element-name="Name" text="Underwear" />
+                    </ui:Instance>
+                    <ui:Instance template="InventoryEquipKindDocument" name="Underwear" class="ItemSelector">
+                        <AttributeOverrides element-name="Name" text="Hat" />
+                    </ui:Instance>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Preview" style="width: 30%;">
+                <ui:VisualElement name="Base" class="PreviewLayer" style="background-image: url(&apos;project://database/Assets/Game/Graphics/player.png?fileID=1327484482&amp;guid=bbd822df1fbdd8c7e8726093f1a47ddf&amp;type=3#player_stand_south_01&apos;);" />
+                <ui:VisualElement name="Underwear" class="PreviewLayer" style="position: absolute;" />
+                <ui:VisualElement name="Clothes" class="PreviewLayer" style="position: absolute;" />
+                <ui:VisualElement name="Hair" class="PreviewLayer" style="position: absolute;" />
+                <ui:VisualElement name="Hat" class="PreviewLayer" style="position: absolute;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

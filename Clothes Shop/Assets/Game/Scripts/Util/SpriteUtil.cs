@@ -19,4 +19,31 @@ public static class SpriteUtil {
 
         return null;
     }
+
+    /// <summary>
+    /// Try to get first sprite from a specific animation clip, containing provided name.
+    /// Otherwise, fallback to the first clip available or null.
+    /// </summary>
+    public static Sprite GetContainingNameOrFirstOrNull(RuntimeAnimatorController runtimeController, string name) {
+        Assert.IsNotNull(runtimeController, "RuntimeAnimatorController can't be null.");
+        AnimationClip[] clips = runtimeController.animationClips;
+
+        if (clips == null || clips.Length == 0) {
+            return null;
+        }
+
+        AnimationClip clip = AnimationClipUtil.FindContainingName(name, clips);
+
+        if (clip == null) {
+            // retry, but get first clip registered
+
+            if (clips.Length == 0) {
+                return null;
+            }
+
+            clip = clips[0];
+        }
+
+        return SpriteUtil.GetFirst(clip);
+    }
 }

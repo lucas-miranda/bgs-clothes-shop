@@ -1,22 +1,20 @@
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.Assertions;
 
-[RequireComponent(typeof(UIDocument))]
-public class ShopUI : MonoBehaviour {
-    public event System.Action OnOpened, OnClosed;
+public class ShopUI : BaseUI {
     public event System.Action<ShopEntryUI> OnEntryClicked;
 
     public const string PriceFormat = "${0}";
 
-    private UIDocument uiDocument;
     private VisualElement itemGridElement;
     private ShopEntryUI[] entries;
 
-    void Start() {
-        uiDocument = GetComponent<UIDocument>();
-        itemGridElement = uiDocument.rootVisualElement.Q<VisualElement>("ItemGrid");
+    protected override void Awake() {
+        base.Awake();
+
+        itemGridElement = mainElement.Q<VisualElement>("ItemGrid");
+        Assert.IsNotNull(itemGridElement, "ItemGrid VisualElement not found.");
 
         // create an wrapper for every shop entry
         // it'll handle that entry state
@@ -29,6 +27,11 @@ public class ShopUI : MonoBehaviour {
             entry.OnClicked += EntryClicked;
             i += 1;
         }
+
+        mainElement.style.display = DisplayStyle.None;
+    }
+
+    void Start() {
     }
 
     /// Load every shop entry.
@@ -50,14 +53,10 @@ public class ShopUI : MonoBehaviour {
         }
     }
 
-    public void Open() {
-        uiDocument.enabled = true;
-        OnOpened?.Invoke();
+    protected override void Opened() {
     }
 
-    public void Close() {
-        uiDocument.enabled = false;
-        OnClosed?.Invoke();
+    protected override void Closed() {
     }
 
     private void EntryClicked(ShopEntryUI entry) {

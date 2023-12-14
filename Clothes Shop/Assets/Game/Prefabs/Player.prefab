@@ -329,6 +329,7 @@ GameObject:
   - component: {fileID: 207818551262578251}
   - component: {fileID: 224138094748238784}
   - component: {fileID: 1102666659065609392}
+  - component: {fileID: 2601099855479560413}
   - component: {fileID: 4796643813357818166}
   m_Layer: 3
   m_Name: Player
@@ -459,6 +460,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe2c860e46f898ac8d8eabf8307e89d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2601099855479560413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6816734323082687714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f379472f6eb8a9a4182e85433eead9f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &4796643813357818166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,6 +488,7 @@ MonoBehaviour:
   hair: {fileID: 0}
   clothes: {fileID: 0}
   underwear: {fileID: 0}
+  canAutoEquip: 1
 --- !u!1 &6816734324936067909
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,28 @@
+.ItemSelector {
+    height: 64px;
+    display: flex;
+}
+
+#KindNames > Label {
+    height: 58px;
+    -unity-text-align: middle-right;
+    font-size: 13px;
+    -unity-font-style: normal;
+    margin-left: 1px;
+    rotate: -10deg;
+    color: rgba(128, 51, 52, 255);
+}
+
+#Preview > VisualElement {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    scale: 4 4;
+    transform-origin: center;
+    left: 25%;
+    top: 45%;
+    min-width: 64px;
+    max-width: 64px;
+    max-height: 64px;
+    min-height: 64px;
+}
