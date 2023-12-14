@@ -1,35 +1,51 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.Assertions;
 
 [RequireComponent(typeof(UIDocument))]
 public class ShopUI : MonoBehaviour {
-    private const string PriceFormat = "${0}";
+    public event System.Action<ShopEntryUI> OnEntryClicked;
+
+    public const string PriceFormat = "${0}";
+
     private UIDocument uiDocument;
     private VisualElement itemGridElement;
+    private ShopEntryUI[] entries;
 
     void Start() {
         uiDocument = GetComponent<UIDocument>();
         itemGridElement = uiDocument.rootVisualElement.Q<VisualElement>("ItemGrid");
+
+        // create an wrapper for every shop entry
+        // it'll handle that entry state
+        // and make easier to handle events later
+        entries = new ShopEntryUI[itemGridElement.childCount];
+        int i = 0;
+        foreach (VisualElement childElement in itemGridElement.Children()) {
+            ShopEntryUI entry = new ShopEntryUI(childElement);
+            entries[i] = entry;
+            entry.OnClicked += EntryClicked;
+            i += 1;
+        }
     }
 
     /// Load every shop entry.
-    public void Load(ShopData shopData) {
-        Assert.IsNotNull(shopData, "Provided ShopData can't be null.");
-        Assert.IsNotNull(shopData.items, "Provided ShopData's items can't be null.");
+    public void Load(IList<ShopEntryData> items) {
+        Assert.IsNotNull(items, "Provided items can't be null.");
 
         int i = 0;
 
         // register every item on a cell
-        for (; i < shopData.items.Length && i < itemGridElement.childCount; i++) {
-            VisualElement childElement = itemGridElement[i];
-            LoadEntry(childElement, shopData.items[i]);
+        for (; i < items.Count && i < entries.Length; i++) {
+            ShopEntryUI entry = entries[i];
+            entry.Load(items[i]);
         }
 
         // clear remaining cells
         for (; i < itemGridElement.childCount; i++) {
-            VisualElement childElement = itemGridElement[i];
-            ClearEntry(childElement);
+            ShopEntryUI entry = entries[i];
+            entry.Clear();
         }
     }
 
@@ -41,17 +57,7 @@ public class ShopUI : MonoBehaviour {
         uiDocument.enabled = false;
     }
 
-    private void LoadEntry(VisualElement shopItemElement, ShopEntryData entryData) {
-        Label displayLabel = shopItemElement.Q<Label>("Display");
-        Label priceLabel = shopItemElement.Q<Label>("Price");
-        displayLabel.style.backgroundImage = new StyleBackground(entryData.item.icon);
-        priceLabel.text = string.Format(PriceFormat, entryData.price);
-    }
-
-    private void ClearEntry(VisualElement shopItemElement) {
-        Label displayLabel = shopItemElement.Q<Label>("Display");
-        Label priceLabel = shopItemElement.Q<Label>("Price");
-        displayLabel.style.backgroundImage = null;
-        priceLabel.visible = false;
+    private void EntryClicked(ShopEntryUI entry) {
+        OnEntryClicked?.Invoke(entry);
     }
 }

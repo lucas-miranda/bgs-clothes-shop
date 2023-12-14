@@ -6,11 +6,6 @@
 
 #Item {
     background-image: url('project://database/Assets/Game/Graphics/UI/Outline/blue.png?fileID=21300000&guid=d1e15d9e4f77a3f30ab4ebac5c57846b&type=3#blue');
-    -unity-slice-left: 1;
-    -unity-slice-top: 1;
-    -unity-slice-right: 1;
-    -unity-slice-bottom: 1;
-    -unity-background-scale-mode: stretch-to-fill;
     width: 64px;
     height: 64px;
     overflow: visible;
@@ -29,11 +24,6 @@
     -unity-text-align: middle-center;
     color: rgb(73, 82, 84);
     top: -35%;
-    -unity-slice-left: 4;
-    -unity-slice-top: 5;
-    -unity-slice-right: 4;
-    -unity-slice-bottom: 5;
-    -unity-background-scale-mode: stretch-to-fill;
     translate: -22px 2px;
     height: 18px;
     padding-top: 3px;
