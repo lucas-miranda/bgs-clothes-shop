@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 201c4cf5647290a7f8aa3071a41a2e1a, type: 3}
   m_Name: MagicHatEntryData
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: b0124d1c3e27c3c5da57251fad3c5f71, type: 2}
+  item: {fileID: 11400000, guid: c3a4d81ef896e3b47856ccc9fb69a82d, type: 2}
   price: 500

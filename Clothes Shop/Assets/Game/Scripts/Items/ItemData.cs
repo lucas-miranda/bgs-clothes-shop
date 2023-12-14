@@ -1,6 +1,8 @@
 using UnityEngine;
 
-[CreateAssetMenuAttribute(menuName = "Game Data/Item")]
-public class ItemData : ScriptableObject {
+public abstract class ItemData : ScriptableObject {
     public Sprite icon;
+    public RuntimeAnimatorController animatorController;
+
+    public abstract EquipKind Kind { get; }
 }

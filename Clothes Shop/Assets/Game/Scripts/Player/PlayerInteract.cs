@@ -17,7 +17,7 @@ public class PlayerInteract : MonoBehaviour {
         }
 
         if (value.isPressed) {
-            nearInteractable.Interact();
+            nearInteractable.Interact(this);
         }
     }
 

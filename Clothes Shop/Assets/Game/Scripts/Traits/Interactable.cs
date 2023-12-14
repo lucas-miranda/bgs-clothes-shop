@@ -8,22 +8,24 @@ public class Interactable : MonoBehaviour {
     }
 
     void OnTriggerEnter2D(Collider2D col) {
-        if (!col.TryGetComponent<PlayerInteract>(out PlayerInteract interact)) {
+        if (!col.TryGetComponent<PlayerInteract>(out PlayerInteract interactor)) {
             return;
         }
 
-        interact.EnterInteractable(this);
+        interactor.EnterInteractable(this);
+        SendMessage("InteractorEntered", interactor, SendMessageOptions.DontRequireReceiver);
     }
 
     void OnTriggerExit2D(Collider2D col) {
-        if (!col.TryGetComponent<PlayerInteract>(out PlayerInteract interact)) {
+        if (!col.TryGetComponent<PlayerInteract>(out PlayerInteract interactor)) {
             return;
         }
 
-        interact.ExitedInteractable(this);
+        interactor.ExitedInteractable(this);
+        SendMessage("InteractorExited", interactor, SendMessageOptions.DontRequireReceiver);
     }
 
-    public void Interact() {
-        SendMessage("Interacted");
+    public void Interact(PlayerInteract interactor) {
+        SendMessage("Interacted", interactor);
     }
 }

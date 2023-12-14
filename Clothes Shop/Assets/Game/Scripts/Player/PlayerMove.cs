@@ -41,7 +41,13 @@ public class PlayerMove : MonoBehaviour {
             isWalking = false;
         }
 
+        // update each body part animator
         foreach (Animator animator in animators) {
+            if (animator.runtimeAnimatorController == null) {
+                // skip empty parts
+                continue;
+            }
+
             animator.SetBool("Walking", isWalking);
             if (isWalking) {
                 // only change face direction when moving

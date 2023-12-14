@@ -7,6 +7,7 @@ public class ClothierNPC : MonoBehaviour {
     public ShopData shopData;
 
     private List<ShopEntryData> availableItems;
+    private PlayerInteract interactor;
 
     void Start() {
         Assert.IsNotNull(shopUI, "Missing ShopUI.");
@@ -19,9 +20,11 @@ public class ClothierNPC : MonoBehaviour {
     void Update() {
     }
 
-    public void Interacted() {
+    public void Interacted(PlayerInteract interactor) {
+        this.interactor = interactor;
         shopUI.Load(availableItems);
-        shopUI.Show();
+        shopUI.Open();
+        shopUI.OnClosed += ShopUIClosed;
     }
 
     private void ShopEntryClicked(ShopEntryUI entry) {
@@ -31,10 +34,19 @@ public class ClothierNPC : MonoBehaviour {
 
         // buy item, if player has needed money amount
         Inventory inventory = Inventory.Instance;
-        if (inventory.SpendMoney(entry.data.price)) {
-            availableItems.Remove(entry.data);
-            inventory.AddItem(entry.data.item);
-            entry.Clear();
+
+        if (!inventory.SpendMoney(entry.data.price)) {
+            // player doesn't have the money amount
+            return;
         }
+
+        availableItems.Remove(entry.data);
+        inventory.AddItem(entry.data.item);
+        entry.Clear();
+    }
+
+    private void ShopUIClosed() {
+        shopUI.OnClosed -= ShopUIClosed;
+        interactor = null;
     }
 }

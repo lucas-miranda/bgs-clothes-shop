@@ -32,5 +32,10 @@ public class Inventory : MonoBehaviour {
 
     public void AddItem(ItemData item) {
         items.Add(item);
+
+        if (GameUtil.TryGetPlayer(out GameObject player)) {
+            player.SendMessage("ReceivedItem", item, SendMessageOptions.DontRequireReceiver);
+        }
     }
+
 }

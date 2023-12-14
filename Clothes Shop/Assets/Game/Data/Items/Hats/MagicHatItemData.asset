@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bc59824b9225c4f39e7298b0ede2200, type: 3}
+  m_Script: {fileID: 11500000, guid: dc38b94b02decb7ca990a22744a32f01, type: 3}
   m_Name: MagicHatItemData
   m_EditorClassIdentifier: 
   icon: {fileID: 879417079, guid: c2eb32cc67fd787c6bab1f8d0a2a3f24, type: 3}
+  animatorController: {fileID: 22100000, guid: 37571c8c7a8bc9bbca26a639131c9ce3, type: 2}

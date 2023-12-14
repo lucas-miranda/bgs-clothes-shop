@@ -5,6 +5,7 @@ using UnityEngine.Assertions;
 
 [RequireComponent(typeof(UIDocument))]
 public class ShopUI : MonoBehaviour {
+    public event System.Action OnOpened, OnClosed;
     public event System.Action<ShopEntryUI> OnEntryClicked;
 
     public const string PriceFormat = "${0}";
@@ -49,12 +50,14 @@ public class ShopUI : MonoBehaviour {
         }
     }
 
-    public void Show() {
+    public void Open() {
         uiDocument.enabled = true;
+        OnOpened?.Invoke();
     }
 
-    public void Hide() {
+    public void Close() {
         uiDocument.enabled = false;
+        OnClosed?.Invoke();
     }
 
     private void EntryClicked(ShopEntryUI entry) {
