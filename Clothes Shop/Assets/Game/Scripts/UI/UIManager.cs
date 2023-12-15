@@ -1,22 +1,21 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 public class UIManager : MonoBehaviour {
     public InventoryUI inventory;
     public ShopUI shop;
 
-    private List<BaseUI> uis = new List<BaseUI>();
+    private List<BaseUI> uis;
 
     void Awake() {
-        foreach (Transform child in transform) {
-            if (this.inventory == null && child.TryGetComponent<InventoryUI>(out InventoryUI inventory)) {
-                this.inventory = inventory;
-                uis.Add(inventory);
-            } else if (this.shop == null && child.TryGetComponent<ShopUI>(out ShopUI shop)) {
-                this.shop = shop;
-                uis.Add(shop);
-            }
-        }
+        Assert.IsNotNull(inventory, "Missing required InventoryUI.");
+        Assert.IsNotNull(shop, "Missing required ShopUI.");
+
+        uis = new List<BaseUI> {
+            inventory,
+            shop,
+        };
     }
 
     void Start() {

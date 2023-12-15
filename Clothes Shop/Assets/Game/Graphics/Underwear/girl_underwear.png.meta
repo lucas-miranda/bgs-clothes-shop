@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c2eb32cc67fd787c6bab1f8d0a2a3f24
+guid: 8e349b663ec13ef8a8c001696d6e4cac
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: magic_hat_stand_south_01
+      name: girl_underwear_stand_south_01
       rect:
         serializedVersion: 2
         x: 0
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acac12a15b071857786fbc6e06911384
-      internalID: -2097616772
+      spriteID: d65d99cf3853ac90692212888269b6c0
+      internalID: 644264620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_1
+      name: girl_underwear_display
       rect:
         serializedVersion: 2
-        x: 64
-        y: 448
-        width: 64
-        height: 64
+        x: 29
+        y: 475
+        width: 6
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63df25c51da28222d9d9ceb999d66db5
-      internalID: -74773441
+      spriteID: 5781b6e36145556689ff1e7eadfeb67b
+      internalID: -1014228323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_2
+      name: girl_underwear_2
       rect:
         serializedVersion: 2
         x: 128
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89096a09ffe5bb3f0a5344c04db2614e
-      internalID: 2123053099
+      spriteID: 2f1e5a1d43aec9d10a9cb65f82df69d1
+      internalID: -823828954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_3
+      name: girl_underwear_3
       rect:
         serializedVersion: 2
         x: 192
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e95409045d7a5f96eb07734476bba211
-      internalID: 1860690706
+      spriteID: 91522c3ef1eb5f918845e72b2508ba81
+      internalID: -1313966720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_4
+      name: girl_underwear_4
       rect:
         serializedVersion: 2
         x: 256
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 960b453d9de6b571c8e5618eae133aca
-      internalID: -2058639046
+      spriteID: 3b483baecbad20e50af189e1175a57a5
+      internalID: 1749884978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_5
+      name: girl_underwear_5
       rect:
         serializedVersion: 2
         x: 320
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feb020ad0db93e61eb14f5c4e3506c9f
-      internalID: -16421013
+      spriteID: 094259c248cca046ab8b3bab0fcda1d4
+      internalID: -649382250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_6
+      name: girl_underwear_6
       rect:
         serializedVersion: 2
         x: 384
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9431533b3416693894f68f83aff0a64
-      internalID: 524442442
+      spriteID: 760ce28ca0b527af698512dded2e7464
+      internalID: 1201148081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_7
+      name: girl_underwear_7
       rect:
         serializedVersion: 2
         x: 448
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 906efecf362f125fbaafbbd489947ac0
-      internalID: 245548201
+      spriteID: 98f34d8f29186109eac96274687de0e3
+      internalID: 1894004887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_stand_north_01
+      name: girl_underwear_stand_north_01
       rect:
         serializedVersion: 2
         x: 0
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba93bff8dd073b572a4b947ea5ac491d
-      internalID: 654923410
+      spriteID: 9bf8f7765d881434fbfa1f0308cfb087
+      internalID: 2049428867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_9
+      name: girl_underwear_9
       rect:
         serializedVersion: 2
         x: 64
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a784f7891a3f296abf7963c71bb8d4b
-      internalID: -86455730
+      spriteID: f76b293e8fd8adcab8149e11a8051263
+      internalID: 1582140734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_10
+      name: girl_underwear_10
       rect:
         serializedVersion: 2
         x: 128
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b3f23794bcedd78a93c5cf0631c4be7
-      internalID: -706423059
+      spriteID: f79367044c9cbb8318037036be99e9f5
+      internalID: -2042502231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_11
+      name: girl_underwear_11
       rect:
         serializedVersion: 2
         x: 192
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a5b1e7951abc6198b613738e1a45fe
-      internalID: 99392030
+      spriteID: 6aee2dea157e1c840b15c121913c6e9b
+      internalID: 1975519166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_12
+      name: girl_underwear_12
       rect:
         serializedVersion: 2
         x: 256
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2e383b4d7f92b00187d56cb48a7476f
-      internalID: 2101504814
+      spriteID: d5da8708c6924c7c5b773a733d482d8b
+      internalID: 1953041351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_13
+      name: girl_underwear_13
       rect:
         serializedVersion: 2
         x: 320
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e03c73c7282fae8e18de5aa7bc8105f2
-      internalID: -856411990
+      spriteID: 1d4c58df44d1ceb139bdad737e5320b1
+      internalID: -110203527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_14
+      name: girl_underwear_14
       rect:
         serializedVersion: 2
         x: 384
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c918dbdeb400c7250a026e707d6ffd8a
-      internalID: -628603960
+      spriteID: a19d278cd6bff03bc9aaae25b200d485
+      internalID: -2103322168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_15
+      name: girl_underwear_15
       rect:
         serializedVersion: 2
         x: 448
@@ -433,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1333f69af0003ab1bb0c67d2cc2e84a7
-      internalID: -1818554255
+      spriteID: 138b9a60a1ff1baca92180dc84f147df
+      internalID: -498604315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_stand_east_01
+      name: girl_underwear_stand_east_01
       rect:
         serializedVersion: 2
         x: 0
@@ -454,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f00ae6aa53e6ec9afa2142235e8c74f0
-      internalID: -61121928
+      spriteID: 7e85756b8182b53fba86a4e75f6b9932
+      internalID: 1675702025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_17
+      name: girl_underwear_17
       rect:
         serializedVersion: 2
         x: 64
@@ -475,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adf76f0d73c139a00a4c23813e723092
-      internalID: 1377630894
+      spriteID: 102450f2114b4350caf8218254ab2d6c
+      internalID: 705755141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_18
+      name: girl_underwear_18
       rect:
         serializedVersion: 2
         x: 128
@@ -496,20 +496,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b5886a486a5888dd90931653499f166
-      internalID: -226012892
+      spriteID: 4ddf2c3c18d46f36cb1c52fdf88467c8
+      internalID: -35464298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_display
+      name: girl_underwear_19
       rect:
         serializedVersion: 2
-        x: 216
-        y: 361
-        width: 17
-        height: 12
+        x: 192
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,14 +517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 305e4586b79a592fc8e5ec837dd0182a
-      internalID: 879417079
+      spriteID: 8882e885d5cf5c988b4ec187449e0164
+      internalID: -567316815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_20
+      name: girl_underwear_20
       rect:
         serializedVersion: 2
         x: 256
@@ -538,14 +538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 978923d65da33b231bc37c87bc96282d
-      internalID: 655044166
+      spriteID: 66343ff61dd7279c3ab76d65472ed479
+      internalID: -445687580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_21
+      name: girl_underwear_21
       rect:
         serializedVersion: 2
         x: 320
@@ -559,14 +559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b2da8b248024408986a721c7534a200
-      internalID: 981655396
+      spriteID: 88b605266ee069834b56c7ddd226ad52
+      internalID: -1059013065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_22
+      name: girl_underwear_22
       rect:
         serializedVersion: 2
         x: 384
@@ -580,14 +580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ae184d7f8159acddb7b64029d874227
-      internalID: -923312827
+      spriteID: 5314734cb668e5c419b113270f4dc048
+      internalID: -1614280873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_23
+      name: girl_underwear_23
       rect:
         serializedVersion: 2
         x: 448
@@ -601,14 +601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 135c4af4360c719d3a97ffcc5923c4d9
-      internalID: 693040500
+      spriteID: da31c4af15fb9924089ce88b5b127ca5
+      internalID: 1696896237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_stand_west_01
+      name: girl_underwear_stand_west_01
       rect:
         serializedVersion: 2
         x: 0
@@ -622,14 +622,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 041e8a4fe633bd3979478d4a3822cf85
-      internalID: -2044674098
+      spriteID: b308c80cc4cc06f49aac861887991c2e
+      internalID: -631435298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_25
+      name: girl_underwear_25
       rect:
         serializedVersion: 2
         x: 64
@@ -643,14 +643,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3a6debed6477e1aa84d8f6ccee19af7
-      internalID: 1443311098
+      spriteID: 34058e64e76f3af01ae4f58cb440bb62
+      internalID: 629113311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_26
+      name: girl_underwear_26
       rect:
         serializedVersion: 2
         x: 128
@@ -664,14 +664,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6af259ff5286b45628cb71562b09e725
-      internalID: 806152539
+      spriteID: 79225d225b035d2388c5bc006c99caef
+      internalID: -969628432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_27
+      name: girl_underwear_27
       rect:
         serializedVersion: 2
         x: 192
@@ -685,14 +685,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44d60c409b724fa398f7fd2e02892844
-      internalID: 274614720
+      spriteID: e1dd6e57f8b1d2eee973a54ba7ae2ae2
+      internalID: 2124173717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_28
+      name: girl_underwear_28
       rect:
         serializedVersion: 2
         x: 256
@@ -706,14 +706,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b77f234a895d78dbb45541cbe796519
-      internalID: -487504813
+      spriteID: d9ccfed6cc3589be6af6b1e8565b3d7b
+      internalID: 879503310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_29
+      name: girl_underwear_29
       rect:
         serializedVersion: 2
         x: 320
@@ -727,14 +727,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c8acf9ab750f7b93ac727079c45eb55
-      internalID: 1202482862
+      spriteID: 62c0b44a05d246d85870558d7b9f702f
+      internalID: 881183216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_30
+      name: girl_underwear_30
       rect:
         serializedVersion: 2
         x: 384
@@ -748,14 +748,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 924784916aeff7a7ea009099a9716be3
-      internalID: 261001599
+      spriteID: de1f1de0ac35372aea70c62d5569b6f1
+      internalID: 1365720160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_31
+      name: girl_underwear_31
       rect:
         serializedVersion: 2
         x: 448
@@ -769,14 +769,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 955c50461bd8a01ee8be1d039c0255eb
-      internalID: 415210859
+      spriteID: cc254be93dfa166a68f90841d7a7a175
+      internalID: -295440772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_01
+      name: girl_underwear_walk_south_01
       rect:
         serializedVersion: 2
         x: 0
@@ -790,14 +790,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7551034f56962e14c8770def7335499e
-      internalID: 716571205
+      spriteID: 060640b64e540b0cb9e8cd0df2fc1945
+      internalID: 104167244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_02
+      name: girl_underwear_walk_south_02
       rect:
         serializedVersion: 2
         x: 64
@@ -811,14 +811,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff97a7d9472818fcf96e692b15610d9f
-      internalID: -1588353755
+      spriteID: db2aedc17ab530e5aacad9a612effa0b
+      internalID: 924675773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_03
+      name: girl_underwear_walk_south_03
       rect:
         serializedVersion: 2
         x: 128
@@ -832,14 +832,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51d3b27b6ab9a7478ab2fd17c19d4c80
-      internalID: -2021069541
+      spriteID: 3c96d89563fd71d128ada6a98116bf55
+      internalID: -1683954165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_04
+      name: girl_underwear_walk_south_04
       rect:
         serializedVersion: 2
         x: 192
@@ -853,14 +853,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48e89e6e45e9ee64a8d76eec3f154c0e
-      internalID: -867955439
+      spriteID: 519da076da45744cda8353802db68468
+      internalID: -579348353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_05
+      name: girl_underwear_walk_south_05
       rect:
         serializedVersion: 2
         x: 256
@@ -874,14 +874,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ce73fa45f55dd879897e25865be7a74
-      internalID: -1177000117
+      spriteID: f78cbb7b91007a9409fa0f8e72f532d2
+      internalID: -739362067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_06
+      name: girl_underwear_walk_south_06
       rect:
         serializedVersion: 2
         x: 320
@@ -895,14 +895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 510937693dd039409bcd582f4e4600a8
-      internalID: 156173283
+      spriteID: cc292b44b85f465389451885842ec6f6
+      internalID: 118975135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_south_01
+      name: girl_underwear_run_south_01
       rect:
         serializedVersion: 2
         x: 384
@@ -916,14 +916,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98eb9f080d6c89c1ea1b420ca4aca894
-      internalID: 1631364809
+      spriteID: b99389fbe4b424daaabe13ff6682747f
+      internalID: 1300162157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_south_02
+      name: girl_underwear_run_south_02
       rect:
         serializedVersion: 2
         x: 448
@@ -937,14 +937,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4083ac40b00debed3b1a0fb3d54e7342
-      internalID: -196486563
+      spriteID: 4f38d698ca1bac634a660d640027a188
+      internalID: 1727318812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_01
+      name: girl_underwear_walk_north_01
       rect:
         serializedVersion: 2
         x: 0
@@ -958,14 +958,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c2f861796a4e795c878f37ea3281bc7
-      internalID: -801137356
+      spriteID: 4d23d8d6819a9ae0fab098bcc2ae8509
+      internalID: 925578251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_02
+      name: girl_underwear_walk_north_02
       rect:
         serializedVersion: 2
         x: 64
@@ -979,14 +979,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a9b97a458f9ff1e19767eaf5ea87ba0
-      internalID: 66642848
+      spriteID: 1617744989be5e7d8b256b4580bd8e30
+      internalID: -1019075267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_03
+      name: girl_underwear_walk_north_03
       rect:
         serializedVersion: 2
         x: 128
@@ -1000,14 +1000,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ae848d812b2a909c8f02815b7744d7e
-      internalID: -919050815
+      spriteID: d6e6b8caf49eac45cb65b02beabee77f
+      internalID: -456633820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_04
+      name: girl_underwear_walk_north_04
       rect:
         serializedVersion: 2
         x: 192
@@ -1021,14 +1021,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bc3c8e4765de0f05a145be47d83f1b0
-      internalID: -1008893299
+      spriteID: a2b01700afa12f30e8412abef01b18be
+      internalID: -507421711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_05
+      name: girl_underwear_walk_north_05
       rect:
         serializedVersion: 2
         x: 256
@@ -1042,14 +1042,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9cc9542d90858d51a85bd9bdc610fb4
-      internalID: -910907615
+      spriteID: e0fd1236a5c3790f2a64c6b09c7838de
+      internalID: 1158388495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_06
+      name: girl_underwear_walk_north_06
       rect:
         serializedVersion: 2
         x: 320
@@ -1063,14 +1063,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30e0721a2d3f7d0d9b7aaa3bff987287
-      internalID: 1665210071
+      spriteID: 8dce73088656b09cdb57d30ac7311715
+      internalID: -1775425035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_north_01
+      name: girl_underwear_run_north_01
       rect:
         serializedVersion: 2
         x: 384
@@ -1084,14 +1084,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee7c9e1e261ffce8dac1ab86478069c2
-      internalID: -442349247
+      spriteID: 6a46f1e682c6dacfd987077bc37734e6
+      internalID: 844334411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_north_02
+      name: girl_underwear_run_north_02
       rect:
         serializedVersion: 2
         x: 448
@@ -1105,18 +1105,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbc6fe38149da52739effbac81a96f65
-      internalID: -617640163
+      spriteID: 6041cebff7be7bc64a4c1385982aebd2
+      internalID: -1979547252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_01
+      name: girl_underwear_walk_east_01
       rect:
         serializedVersion: 2
         x: 0
-        y: 65
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1126,14 +1126,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dee848eadaad0ba0e86fecf35bd8a0dd
-      internalID: 879442471
+      spriteID: c1fc966bdb62655679ed093b6c882eb6
+      internalID: -343398204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_02
+      name: girl_underwear_walk_east_02
       rect:
         serializedVersion: 2
         x: 64
@@ -1147,14 +1147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1383775eee5a9bd59dbca390fde24a1
-      internalID: -21294676
+      spriteID: 98bbb039b940cb74d9c0fe27efe143d0
+      internalID: -531662479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_03
+      name: girl_underwear_walk_east_03
       rect:
         serializedVersion: 2
         x: 128
@@ -1168,14 +1168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdef2e1d027a688d0bde43e2b68a4132
-      internalID: 1213010775
+      spriteID: 22b3d23c00762146bb6019e69762ff3c
+      internalID: 1040357324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_04
+      name: girl_underwear_walk_east_04
       rect:
         serializedVersion: 2
         x: 192
@@ -1189,14 +1189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc6a6c5e4f2a4980bb39041880421970
-      internalID: 2016412156
+      spriteID: f01e1a96c51ac7e96b8ce387665e8c24
+      internalID: 1054433671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_05
+      name: girl_underwear_walk_east_05
       rect:
         serializedVersion: 2
         x: 256
@@ -1210,14 +1210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fca21b7dfc1bf9a7ca827cff8f2e8f17
-      internalID: 261425352
+      spriteID: 9add704243eea0f5b94edf1d7d8cb14d
+      internalID: -138250519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_06
+      name: girl_underwear_walk_east_06
       rect:
         serializedVersion: 2
         x: 320
@@ -1231,14 +1231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a59514f24b487d8aa8d559e628d9cc8d
-      internalID: 1624293270
+      spriteID: 86dabeecfc18896cbba7978f3d84e22f
+      internalID: 1556841907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_east_01
+      name: girl_underwear_run_east_01
       rect:
         serializedVersion: 2
         x: 384
@@ -1252,14 +1252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 844826df47d4489e384293d2b6c85a19
-      internalID: 584359432
+      spriteID: 31b3d31620859a36eac50305baee8d0d
+      internalID: 274375800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_east_02
+      name: girl_underwear_run_east_02
       rect:
         serializedVersion: 2
         x: 448
@@ -1273,14 +1273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3da1c087b471823b19223d7549a38aae
-      internalID: 2132811821
+      spriteID: 002b5b85c5895f170af62f3a3806844b
+      internalID: -717071073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_01
+      name: girl_underwear_walk_west_01
       rect:
         serializedVersion: 2
         x: 0
@@ -1294,14 +1294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09f7a62f9dcbb010383d00fcd6c27d46
-      internalID: 478957075
+      spriteID: 8b1e8914fa6a27c9ea75fccacc6747b5
+      internalID: 977210669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_02
+      name: girl_underwear_walk_west_02
       rect:
         serializedVersion: 2
         x: 64
@@ -1315,14 +1315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89940e5c988c1599bac840052c67d6d8
-      internalID: -588550500
+      spriteID: b39c76dd6eb4924daa40d820160d7baf
+      internalID: -1872688446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_03
+      name: girl_underwear_walk_west_03
       rect:
         serializedVersion: 2
         x: 128
@@ -1336,14 +1336,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e72460a473ed40d58a263192e2ade2fc
-      internalID: 419887647
+      spriteID: d10fa791faef29783a0125de0f1e229a
+      internalID: 802884265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_04
+      name: girl_underwear_walk_west_04
       rect:
         serializedVersion: 2
         x: 192
@@ -1357,14 +1357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7046347beb1edcccdacd97e76e68f37c
-      internalID: 1383780218
+      spriteID: 1d616176a1bf1677d9829ca05d56a54b
+      internalID: 72237659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_05
+      name: girl_underwear_walk_west_05
       rect:
         serializedVersion: 2
         x: 256
@@ -1378,14 +1378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a51a0fb6b8d7398c08c4fb877cdfc834
-      internalID: 2042996678
+      spriteID: 11d4d236543dceb15a9962859fb253f3
+      internalID: -1817934720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_06
+      name: girl_underwear_walk_west_06
       rect:
         serializedVersion: 2
         x: 320
@@ -1399,14 +1399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9e789da08134befa99bdec75011ba85
-      internalID: -1165660618
+      spriteID: bcca9763ab7227b408677f7246bfb01b
+      internalID: -1218497831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_west_01
+      name: girl_underwear_run_west_01
       rect:
         serializedVersion: 2
         x: 384
@@ -1420,14 +1420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b10e9a63f7feec965baaef8769fbdd87
-      internalID: -117130105
+      spriteID: a760fea4a67ba70939095ac08ba9b92e
+      internalID: -177489193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_west_02
+      name: girl_underwear_run_west_02
       rect:
         serializedVersion: 2
         x: 448
@@ -1441,8 +1441,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea12d0107e386af14a920829d6514370
-      internalID: -111584664
+      spriteID: 74c8570d4c0b1f591ab80f5bdb9808b8
+      internalID: -1890780809
       vertices: []
       indices: 
       edges: []
@@ -1458,70 +1458,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      magic_hat_walk_east_01: 879442471
-      magic_hat_walk_west_05: 2042996678
-      char_a_p1_5hat_pnty_v04_25: 1443311098
-      magic_hat_walk_east_02: -21294676
-      char_a_p1_5hat_pnty_v04_30: -442349247
-      magic_hat_walk_west_06: -1165660618
-      char_a_p1_5hat_pnty_v04_2: -867955439
-      magic_hat_stand_west_01: -2044674098
-      magic_hat_walk_north_02: 66642848
-      char_a_p1_5hat_pnty_v04_20: 716571205
-      magic_hat_walk_north_06: 1665210071
-      magic_hat_walk_west_04: 1383780218
-      char_a_p1_5hat_pnty_v04_1: -910907615
-      char_a_p1_5hat_pnty_v04_21: -2021069541
-      magic_hat_walk_north_03: -919050815
-      magic_hat_run_east_01: 584359432
-      magic_hat_walk_east_06: 1624293270
-      magic_hat_walk_south_03: -2021069541
-      magic_hat_run_north_01: -442349247
-      char_a_p1_5hat_pnty_v04_28: 1377630894
-      magic_hat_walk_north_04: -1008893299
-      magic_hat_stand_south_01: -2097616772
-      magic_hat_walk_east_03: 1213010775
-      char_a_p1_5hat_pnty_v04_17: 693040500
-      char_a_p1_5hat_pnty_v04_23: 419887647
-      magic_hat_walk_west_03: 419887647
-      char_a_p1_5hat_pnty_v04_13: -628603960
-      char_a_p1_5hat_pnty_v04_14: 274614720
-      char_a_p1_5hat_pnty_v04_27: -196486563
-      magic_hat_run_north_02: -617640163
-      magic_hat_walk_north_05: -910907615
-      char_a_p1_5hat_pnty_v04_3: 245548201
-      char_a_p1_5hat_pnty_v04_7: 99392030
-      char_a_p1_5hat_pnty_v04_11: 1202482862
-      magic_hat_walk_south_06: 156173283
-      magic_hat_walk_south_01: 716571205
-      magic_hat_walk_west_02: -588550500
-      magic_hat_walk_north_01: -801137356
-      char_a_p1_5hat_pnty_v04_29: -86455730
-      char_a_p1_5hat_pnty_v04_9: 1383780218
-      magic_hat_walk_south_02: -1588353755
-      magic_hat_run_south_02: -196486563
-      char_a_p1_5hat_pnty_v04_12: 66642848
-      magic_hat_stand_north_01: 654923410
-      char_a_p1_5hat_pnty_v04_15: 261425352
-      char_a_p1_5hat_pnty_v04_4: -16421013
-      char_a_p1_5hat_pnty_v04_5: 524442442
-      char_a_p1_5hat_pnty_v04_6: 156173283
-      magic_hat_walk_south_05: -1177000117
-      char_a_p1_5hat_pnty_v04_22: -21294676
-      magic_hat_run_south_01: 1631364809
-      magic_hat_walk_south_04: -867955439
-      magic_hat_walk_east_05: 261425352
-      magic_hat_walk_west_01: 478957075
-      magic_hat_stand_east_01: -61121928
-      magic_hat_run_west_01: -117130105
-      char_a_p1_5hat_pnty_v04_31: -226012892
-      char_a_p1_5hat_pnty_v04_18: 584359432
-      magic_hat_run_west_02: -111584664
-      char_a_p1_5hat_pnty_v04_26: 2016412156
-      char_a_p1_5hat_pnty_v04_10: -588550500
-      magic_hat_walk_east_04: 2016412156
-      magic_hat_run_east_02: 2132811821
-      magic_hat_display: 879417079
+      girl_underwear_stand_south_01: 644264620
+      girl_underwear_walk_south_04: -579348353
+      girl_underwear_15: -498604315
+      girl_underwear_run_east_01: 274375800
+      girl_underwear_walk_south_05: -739362067
+      girl_underwear_run_east_02: -717071073
+      girl_underwear_20: -445687580
+      girl_underwear_walk_west_01: 977210669
+      girl_underwear_18: -35464298
+      girl_underwear_walk_south_06: 118975135
+      girl_underwear_walk_west_02: -1872688446
+      girl_underwear_22: -1614280873
+      girl_underwear_14: -2103322168
+      girl_underwear_4: 1749884978
+      girl_underwear_7: 1894004887
+      girl_underwear_25: 629113311
+      girl_underwear_run_north_01: 844334411
+      girl_underwear_run_west_02: -1890780809
+      girl_underwear_9: 1582140734
+      girl_underwear_walk_east_05: -138250519
+      girl_underwear_walk_north_02: -1019075267
+      girl_underwear_walk_north_04: -507421711
+      girl_underwear_6: 1201148081
+      girl_underwear_walk_north_06: -1775425035
+      girl_underwear_run_north_02: -1979547252
+      girl_underwear_run_south_02: 1727318812
+      girl_underwear_27: 2124173717
+      girl_underwear_26: -969628432
+      girl_underwear_stand_west_01: -631435298
+      girl_underwear_walk_east_04: 1054433671
+      girl_underwear_display: -1014228323
+      girl_underwear_30: 1365720160
+      girl_underwear_walk_south_01: 104167244
+      girl_underwear_walk_north_03: -456633820
+      girl_underwear_walk_west_06: -1218497831
+      girl_underwear_walk_east_06: 1556841907
+      girl_underwear_17: 705755141
+      girl_underwear_13: -110203527
+      girl_underwear_29: 881183216
+      girl_underwear_stand_east_01: 1675702025
+      girl_underwear_run_south_01: 1300162157
+      girl_underwear_walk_north_05: 1158388495
+      girl_underwear_10: -2042502231
+      girl_underwear_walk_east_02: -531662479
+      girl_underwear_2: -823828954
+      girl_underwear_stand_north_01: 2049428867
+      girl_underwear_walk_west_03: 802884265
+      girl_underwear_run_west_01: -177489193
+      girl_underwear_walk_north_01: 925578251
+      girl_underwear_walk_south_02: 924675773
+      girl_underwear_walk_east_03: 1040357324
+      girl_underwear_28: 879503310
+      girl_underwear_23: 1696896237
+      girl_underwear_walk_west_05: -1817934720
+      girl_underwear_11: 1975519166
+      girl_underwear_31: -295440772
+      girl_underwear_5: -649382250
+      girl_underwear_19: -567316815
+      girl_underwear_walk_south_03: -1683954165
+      girl_underwear_3: -1313966720
+      girl_underwear_21: -1059013065
+      girl_underwear_walk_east_01: -343398204
+      girl_underwear_walk_west_04: 72237659
+      girl_underwear_12: 1953041351
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

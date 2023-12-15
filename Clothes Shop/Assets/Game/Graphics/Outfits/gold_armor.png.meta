@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c2eb32cc67fd787c6bab1f8d0a2a3f24
+guid: c7f4bfca2110c2eadb1a25d42b49ea1c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: magic_hat_stand_south_01
+      name: gold_armor_stand_south_01
       rect:
         serializedVersion: 2
         x: 0
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acac12a15b071857786fbc6e06911384
-      internalID: -2097616772
+      spriteID: 9cc0048619d76edf3aed7de4f5692f98
+      internalID: -1904379436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_1
+      name: gold_armor_display
       rect:
         serializedVersion: 2
-        x: 64
-        y: 448
-        width: 64
-        height: 64
+        x: 25
+        y: 468
+        width: 14
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63df25c51da28222d9d9ceb999d66db5
-      internalID: -74773441
+      spriteID: ce5ecb1efb6087f25b5e8afd1b0d5f2c
+      internalID: -829754981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_2
+      name: gold_armor_2
       rect:
         serializedVersion: 2
         x: 128
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89096a09ffe5bb3f0a5344c04db2614e
-      internalID: 2123053099
+      spriteID: 68ed064cb4572cb2b8eb9d3b99085cfd
+      internalID: -24737317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_3
+      name: gold_armor_3
       rect:
         serializedVersion: 2
         x: 192
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e95409045d7a5f96eb07734476bba211
-      internalID: 1860690706
+      spriteID: 901e39d1dd7a3c5288c649b5b2ee6a8a
+      internalID: 497568683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_4
+      name: gold_armor_4
       rect:
         serializedVersion: 2
         x: 256
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 960b453d9de6b571c8e5618eae133aca
-      internalID: -2058639046
+      spriteID: f99cfba2a5e7a7211b0a27ae26cda357
+      internalID: -513093034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_5
+      name: gold_armor_5
       rect:
         serializedVersion: 2
         x: 320
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feb020ad0db93e61eb14f5c4e3506c9f
-      internalID: -16421013
+      spriteID: b601d11acb224506fa17c5f1a67662cb
+      internalID: -1921314734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_6
+      name: gold_armor_6
       rect:
         serializedVersion: 2
         x: 384
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9431533b3416693894f68f83aff0a64
-      internalID: 524442442
+      spriteID: dc6a1f5fd0b317435a1e858c3f2dac74
+      internalID: -1896314610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_7
+      name: gold_armor_7
       rect:
         serializedVersion: 2
         x: 448
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 906efecf362f125fbaafbbd489947ac0
-      internalID: 245548201
+      spriteID: 903d57f39be21628992ab3d8784a77c9
+      internalID: 434665606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_stand_north_01
+      name: gold_armor_stand_north_01
       rect:
         serializedVersion: 2
         x: 0
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba93bff8dd073b572a4b947ea5ac491d
-      internalID: 654923410
+      spriteID: b91cb0d0562349684876be6d282b997f
+      internalID: 1073432444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_9
+      name: gold_armor_9
       rect:
         serializedVersion: 2
         x: 64
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a784f7891a3f296abf7963c71bb8d4b
-      internalID: -86455730
+      spriteID: 3f2bdc4a51bbde38bad31be0d9396843
+      internalID: 1342109856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_10
+      name: gold_armor_10
       rect:
         serializedVersion: 2
         x: 128
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b3f23794bcedd78a93c5cf0631c4be7
-      internalID: -706423059
+      spriteID: 4d5e51df07cdec31781e314936299049
+      internalID: 751174564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_11
+      name: gold_armor_11
       rect:
         serializedVersion: 2
         x: 192
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a5b1e7951abc6198b613738e1a45fe
-      internalID: 99392030
+      spriteID: 37ef066c3979823a8a14838a6c44a707
+      internalID: -1200889494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_12
+      name: gold_armor_12
       rect:
         serializedVersion: 2
         x: 256
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2e383b4d7f92b00187d56cb48a7476f
-      internalID: 2101504814
+      spriteID: cdfb821b5623b565788000c35b72efe9
+      internalID: 1425646783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_13
+      name: gold_armor_13
       rect:
         serializedVersion: 2
         x: 320
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e03c73c7282fae8e18de5aa7bc8105f2
-      internalID: -856411990
+      spriteID: 9edbcda6dc26b95e98a03e9dfcd5f46b
+      internalID: 283133234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_14
+      name: gold_armor_14
       rect:
         serializedVersion: 2
         x: 384
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c918dbdeb400c7250a026e707d6ffd8a
-      internalID: -628603960
+      spriteID: a1d83f933ed0047008af436cca6695a0
+      internalID: 636820213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_15
+      name: gold_armor_15
       rect:
         serializedVersion: 2
         x: 448
@@ -433,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1333f69af0003ab1bb0c67d2cc2e84a7
-      internalID: -1818554255
+      spriteID: 0a1a76faabe8f48a9818ec9ca52f3680
+      internalID: 315165509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_stand_east_01
+      name: gold_armor_stand_east_01
       rect:
         serializedVersion: 2
         x: 0
@@ -454,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f00ae6aa53e6ec9afa2142235e8c74f0
-      internalID: -61121928
+      spriteID: 7583b9a90ef457e4eaf4803f7328ee4e
+      internalID: 1564976282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_17
+      name: gold_armor_17
       rect:
         serializedVersion: 2
         x: 64
@@ -475,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adf76f0d73c139a00a4c23813e723092
-      internalID: 1377630894
+      spriteID: d7744f7ac261a134e905ad2f80b85b26
+      internalID: -1686258133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_18
+      name: gold_armor_18
       rect:
         serializedVersion: 2
         x: 128
@@ -496,20 +496,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b5886a486a5888dd90931653499f166
-      internalID: -226012892
+      spriteID: c87ef7769363744ff80df34db0cec1a1
+      internalID: -1002613731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_display
+      name: gold_armor_19
       rect:
         serializedVersion: 2
-        x: 216
-        y: 361
-        width: 17
-        height: 12
+        x: 192
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,14 +517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 305e4586b79a592fc8e5ec837dd0182a
-      internalID: 879417079
+      spriteID: 34b27c28cd33cff448f2b6566dbeae89
+      internalID: 1484232681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_20
+      name: gold_armor_20
       rect:
         serializedVersion: 2
         x: 256
@@ -538,14 +538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 978923d65da33b231bc37c87bc96282d
-      internalID: 655044166
+      spriteID: bb65cc32dc3e00d86a8e921be01125e7
+      internalID: -1105760206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_21
+      name: gold_armor_21
       rect:
         serializedVersion: 2
         x: 320
@@ -559,14 +559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b2da8b248024408986a721c7534a200
-      internalID: 981655396
+      spriteID: 1f9ea6f3a5b7ef5bb99dc6b499b6855a
+      internalID: -951090759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_22
+      name: gold_armor_22
       rect:
         serializedVersion: 2
         x: 384
@@ -580,14 +580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ae184d7f8159acddb7b64029d874227
-      internalID: -923312827
+      spriteID: 2ab351dc1fda77b858d1af6a0eea890c
+      internalID: 1337418786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_23
+      name: gold_armor_23
       rect:
         serializedVersion: 2
         x: 448
@@ -601,14 +601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 135c4af4360c719d3a97ffcc5923c4d9
-      internalID: 693040500
+      spriteID: a755434a82c7a129b994e74ea941491e
+      internalID: -891575761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_stand_west_01
+      name: gold_armor_stand_west_01
       rect:
         serializedVersion: 2
         x: 0
@@ -622,14 +622,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 041e8a4fe633bd3979478d4a3822cf85
-      internalID: -2044674098
+      spriteID: 7521d07e2a9c7b6aeb87590b2fa94e1f
+      internalID: -1846495363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_25
+      name: gold_armor_25
       rect:
         serializedVersion: 2
         x: 64
@@ -643,14 +643,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3a6debed6477e1aa84d8f6ccee19af7
-      internalID: 1443311098
+      spriteID: 331b4fe769d961662a94d5d713f7bb8a
+      internalID: 89601106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_26
+      name: gold_armor_26
       rect:
         serializedVersion: 2
         x: 128
@@ -664,14 +664,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6af259ff5286b45628cb71562b09e725
-      internalID: 806152539
+      spriteID: c3e3d1374e7e531a9bcb4b639ef05854
+      internalID: -76266028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_27
+      name: gold_armor_27
       rect:
         serializedVersion: 2
         x: 192
@@ -685,14 +685,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44d60c409b724fa398f7fd2e02892844
-      internalID: 274614720
+      spriteID: bb533ffd663e7f1d59ed7324d3b60af2
+      internalID: -537457235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_28
+      name: gold_armor_28
       rect:
         serializedVersion: 2
         x: 256
@@ -706,14 +706,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b77f234a895d78dbb45541cbe796519
-      internalID: -487504813
+      spriteID: f9dd8b96d1fea370998570bf78d32d7d
+      internalID: 1994833636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_29
+      name: gold_armor_29
       rect:
         serializedVersion: 2
         x: 320
@@ -727,14 +727,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c8acf9ab750f7b93ac727079c45eb55
-      internalID: 1202482862
+      spriteID: 7c6592878dc1bb8a68c5fb963ba67cf2
+      internalID: 433424862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_30
+      name: gold_armor_30
       rect:
         serializedVersion: 2
         x: 384
@@ -748,14 +748,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 924784916aeff7a7ea009099a9716be3
-      internalID: 261001599
+      spriteID: 2ee9a6d1b4c174d69822b8ef91d5d0ae
+      internalID: 2080300541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_31
+      name: gold_armor_31
       rect:
         serializedVersion: 2
         x: 448
@@ -769,14 +769,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 955c50461bd8a01ee8be1d039c0255eb
-      internalID: 415210859
+      spriteID: 43359d3a046a926f6ad411158c73471d
+      internalID: 639566658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_01
+      name: gold_armor_walk_south_01
       rect:
         serializedVersion: 2
         x: 0
@@ -790,14 +790,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7551034f56962e14c8770def7335499e
-      internalID: 716571205
+      spriteID: 12e9d58bcc43df308a33c58dc1596e8a
+      internalID: 2114731037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_02
+      name: gold_armor_walk_south_02
       rect:
         serializedVersion: 2
         x: 64
@@ -811,14 +811,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff97a7d9472818fcf96e692b15610d9f
-      internalID: -1588353755
+      spriteID: 7babe1cfcaaafa612aa175f21242583b
+      internalID: 1523516132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_03
+      name: gold_armor_walk_south_03
       rect:
         serializedVersion: 2
         x: 128
@@ -832,14 +832,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51d3b27b6ab9a7478ab2fd17c19d4c80
-      internalID: -2021069541
+      spriteID: 4ebf74abaccd6d1d89e43c64d8ecdfcd
+      internalID: 707872331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_04
+      name: gold_armor_walk_south_04
       rect:
         serializedVersion: 2
         x: 192
@@ -853,14 +853,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48e89e6e45e9ee64a8d76eec3f154c0e
-      internalID: -867955439
+      spriteID: d2690e9575127be37991a52673a31e05
+      internalID: -853572374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_05
+      name: gold_armor_walk_south_05
       rect:
         serializedVersion: 2
         x: 256
@@ -874,14 +874,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ce73fa45f55dd879897e25865be7a74
-      internalID: -1177000117
+      spriteID: 8ff9ded0b8ab7da87aa95f83c8f2c916
+      internalID: 58647836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_06
+      name: gold_armor_walk_south_06
       rect:
         serializedVersion: 2
         x: 320
@@ -895,14 +895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 510937693dd039409bcd582f4e4600a8
-      internalID: 156173283
+      spriteID: 81e6fe00c6f8bd7329f0b63acb4bb032
+      internalID: 486495330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_south_01
+      name: gold_armor_run_south_01
       rect:
         serializedVersion: 2
         x: 384
@@ -916,14 +916,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98eb9f080d6c89c1ea1b420ca4aca894
-      internalID: 1631364809
+      spriteID: b618fe855f5c4a3bc8f5c484decac963
+      internalID: 199686315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_south_02
+      name: gold_armor_run_south_02
       rect:
         serializedVersion: 2
         x: 448
@@ -937,14 +937,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4083ac40b00debed3b1a0fb3d54e7342
-      internalID: -196486563
+      spriteID: c879c521f5372478488ecdda612c4fe7
+      internalID: 1217210769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_01
+      name: gold_armor_walk_north_01
       rect:
         serializedVersion: 2
         x: 0
@@ -958,14 +958,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c2f861796a4e795c878f37ea3281bc7
-      internalID: -801137356
+      spriteID: 3bad2e88b789eac12abcc765907504e8
+      internalID: 1849874383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_02
+      name: gold_armor_walk_north_02
       rect:
         serializedVersion: 2
         x: 64
@@ -979,14 +979,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a9b97a458f9ff1e19767eaf5ea87ba0
-      internalID: 66642848
+      spriteID: 03339e0161c1ce872b9ed78cb6719044
+      internalID: 1370087559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_03
+      name: gold_armor_walk_north_03
       rect:
         serializedVersion: 2
         x: 128
@@ -1000,14 +1000,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ae848d812b2a909c8f02815b7744d7e
-      internalID: -919050815
+      spriteID: 96cd02d177f74350a9035222ab9cb9e2
+      internalID: -1511364198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_04
+      name: gold_armor_walk_north_04
       rect:
         serializedVersion: 2
         x: 192
@@ -1021,14 +1021,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bc3c8e4765de0f05a145be47d83f1b0
-      internalID: -1008893299
+      spriteID: 49b93453c859a239394c288906814a86
+      internalID: 1722357343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_05
+      name: gold_armor_walk_north_05
       rect:
         serializedVersion: 2
         x: 256
@@ -1042,14 +1042,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9cc9542d90858d51a85bd9bdc610fb4
-      internalID: -910907615
+      spriteID: bd1b211408ac3568582297802bc56504
+      internalID: -368946132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_06
+      name: gold_armor_walk_north_06
       rect:
         serializedVersion: 2
         x: 320
@@ -1063,14 +1063,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30e0721a2d3f7d0d9b7aaa3bff987287
-      internalID: 1665210071
+      spriteID: a01ae1493ce710c8c8a0fad474c7eefb
+      internalID: -256674678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_north_01
+      name: gold_armor_run_north_01
       rect:
         serializedVersion: 2
         x: 384
@@ -1084,14 +1084,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee7c9e1e261ffce8dac1ab86478069c2
-      internalID: -442349247
+      spriteID: 14c899ed73609e95cac972c6b69d7e0a
+      internalID: -1164259603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_north_02
+      name: gold_armor_run_north_02
       rect:
         serializedVersion: 2
         x: 448
@@ -1105,18 +1105,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbc6fe38149da52739effbac81a96f65
-      internalID: -617640163
+      spriteID: 2b2be02ba72c7c3a29ae753f29955ed6
+      internalID: -614985176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_01
+      name: gold_armor_walk_east_01
       rect:
         serializedVersion: 2
         x: 0
-        y: 65
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1126,14 +1126,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dee848eadaad0ba0e86fecf35bd8a0dd
-      internalID: 879442471
+      spriteID: ebde9baa18e30f737954bbb7b3aa5dc3
+      internalID: -2099203129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_02
+      name: gold_armor_walk_east_02
       rect:
         serializedVersion: 2
         x: 64
@@ -1147,14 +1147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1383775eee5a9bd59dbca390fde24a1
-      internalID: -21294676
+      spriteID: 2046469599d56dfe98e24ee4c11d1ffd
+      internalID: 456656330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_03
+      name: gold_armor_walk_east_03
       rect:
         serializedVersion: 2
         x: 128
@@ -1168,14 +1168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdef2e1d027a688d0bde43e2b68a4132
-      internalID: 1213010775
+      spriteID: 49affc5a12148a8fb98a7579c12ff76c
+      internalID: -424551378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_04
+      name: gold_armor_walk_east_04
       rect:
         serializedVersion: 2
         x: 192
@@ -1189,14 +1189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc6a6c5e4f2a4980bb39041880421970
-      internalID: 2016412156
+      spriteID: d1baebc12e045a6ad953e9c8009d845b
+      internalID: 480257626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_05
+      name: gold_armor_walk_east_05
       rect:
         serializedVersion: 2
         x: 256
@@ -1210,14 +1210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fca21b7dfc1bf9a7ca827cff8f2e8f17
-      internalID: 261425352
+      spriteID: 7fa674c5dc39960d086662dadfa255e5
+      internalID: 587469259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_06
+      name: gold_armor_walk_east_06
       rect:
         serializedVersion: 2
         x: 320
@@ -1231,14 +1231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a59514f24b487d8aa8d559e628d9cc8d
-      internalID: 1624293270
+      spriteID: 213e2293008e945af8885cb380f403cc
+      internalID: -252956159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_east_01
+      name: gold_armor_run_east_01
       rect:
         serializedVersion: 2
         x: 384
@@ -1252,14 +1252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 844826df47d4489e384293d2b6c85a19
-      internalID: 584359432
+      spriteID: fef1422e342e7c804a4975f1900d1515
+      internalID: -1806231043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_east_02
+      name: gold_armor_run_east_02
       rect:
         serializedVersion: 2
         x: 448
@@ -1273,14 +1273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3da1c087b471823b19223d7549a38aae
-      internalID: 2132811821
+      spriteID: ba668439b7b5aa4aebb09f700d247f8d
+      internalID: 298137186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_01
+      name: gold_armor_walk_west_01
       rect:
         serializedVersion: 2
         x: 0
@@ -1294,14 +1294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09f7a62f9dcbb010383d00fcd6c27d46
-      internalID: 478957075
+      spriteID: b5a1a5808a9eddef6b9a6b1321c85335
+      internalID: -458818101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_02
+      name: gold_armor_walk_west_02
       rect:
         serializedVersion: 2
         x: 64
@@ -1315,14 +1315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89940e5c988c1599bac840052c67d6d8
-      internalID: -588550500
+      spriteID: decc56b8084e4ea93b11f9e1e2b5531e
+      internalID: 772473504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_03
+      name: gold_armor_walk_west_03
       rect:
         serializedVersion: 2
         x: 128
@@ -1336,14 +1336,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e72460a473ed40d58a263192e2ade2fc
-      internalID: 419887647
+      spriteID: 141e29447bdcfe9f0bb491f161f8eb45
+      internalID: 618187916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_04
+      name: gold_armor_walk_west_04
       rect:
         serializedVersion: 2
         x: 192
@@ -1357,14 +1357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7046347beb1edcccdacd97e76e68f37c
-      internalID: 1383780218
+      spriteID: 924f5f7851310f000be9365d5bd75057
+      internalID: 1555050437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_05
+      name: gold_armor_walk_west_05
       rect:
         serializedVersion: 2
         x: 256
@@ -1378,14 +1378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a51a0fb6b8d7398c08c4fb877cdfc834
-      internalID: 2042996678
+      spriteID: 08b997d5183419ddd94dac414ebec7a4
+      internalID: -1201619916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_06
+      name: gold_armor_walk_west_06
       rect:
         serializedVersion: 2
         x: 320
@@ -1399,14 +1399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9e789da08134befa99bdec75011ba85
-      internalID: -1165660618
+      spriteID: 0bcd84bd311029c80a64abec857b4336
+      internalID: -190676317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_west_01
+      name: gold_armor_run_west_01
       rect:
         serializedVersion: 2
         x: 384
@@ -1420,14 +1420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b10e9a63f7feec965baaef8769fbdd87
-      internalID: -117130105
+      spriteID: 2da440ef8965282eea3811ef3c569583
+      internalID: -377460457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_west_02
+      name: gold_armor_run_west_02
       rect:
         serializedVersion: 2
         x: 448
@@ -1441,8 +1441,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea12d0107e386af14a920829d6514370
-      internalID: -111584664
+      spriteID: 0cae7d4e45651141b8fab666879afe59
+      internalID: 1939422523
       vertices: []
       indices: 
       edges: []
@@ -1458,70 +1458,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      magic_hat_walk_east_01: 879442471
-      magic_hat_walk_west_05: 2042996678
-      char_a_p1_5hat_pnty_v04_25: 1443311098
-      magic_hat_walk_east_02: -21294676
-      char_a_p1_5hat_pnty_v04_30: -442349247
-      magic_hat_walk_west_06: -1165660618
-      char_a_p1_5hat_pnty_v04_2: -867955439
-      magic_hat_stand_west_01: -2044674098
-      magic_hat_walk_north_02: 66642848
-      char_a_p1_5hat_pnty_v04_20: 716571205
-      magic_hat_walk_north_06: 1665210071
-      magic_hat_walk_west_04: 1383780218
-      char_a_p1_5hat_pnty_v04_1: -910907615
-      char_a_p1_5hat_pnty_v04_21: -2021069541
-      magic_hat_walk_north_03: -919050815
-      magic_hat_run_east_01: 584359432
-      magic_hat_walk_east_06: 1624293270
-      magic_hat_walk_south_03: -2021069541
-      magic_hat_run_north_01: -442349247
-      char_a_p1_5hat_pnty_v04_28: 1377630894
-      magic_hat_walk_north_04: -1008893299
-      magic_hat_stand_south_01: -2097616772
-      magic_hat_walk_east_03: 1213010775
-      char_a_p1_5hat_pnty_v04_17: 693040500
-      char_a_p1_5hat_pnty_v04_23: 419887647
-      magic_hat_walk_west_03: 419887647
-      char_a_p1_5hat_pnty_v04_13: -628603960
-      char_a_p1_5hat_pnty_v04_14: 274614720
-      char_a_p1_5hat_pnty_v04_27: -196486563
-      magic_hat_run_north_02: -617640163
-      magic_hat_walk_north_05: -910907615
-      char_a_p1_5hat_pnty_v04_3: 245548201
-      char_a_p1_5hat_pnty_v04_7: 99392030
-      char_a_p1_5hat_pnty_v04_11: 1202482862
-      magic_hat_walk_south_06: 156173283
-      magic_hat_walk_south_01: 716571205
-      magic_hat_walk_west_02: -588550500
-      magic_hat_walk_north_01: -801137356
-      char_a_p1_5hat_pnty_v04_29: -86455730
-      char_a_p1_5hat_pnty_v04_9: 1383780218
-      magic_hat_walk_south_02: -1588353755
-      magic_hat_run_south_02: -196486563
-      char_a_p1_5hat_pnty_v04_12: 66642848
-      magic_hat_stand_north_01: 654923410
-      char_a_p1_5hat_pnty_v04_15: 261425352
-      char_a_p1_5hat_pnty_v04_4: -16421013
-      char_a_p1_5hat_pnty_v04_5: 524442442
-      char_a_p1_5hat_pnty_v04_6: 156173283
-      magic_hat_walk_south_05: -1177000117
-      char_a_p1_5hat_pnty_v04_22: -21294676
-      magic_hat_run_south_01: 1631364809
-      magic_hat_walk_south_04: -867955439
-      magic_hat_walk_east_05: 261425352
-      magic_hat_walk_west_01: 478957075
-      magic_hat_stand_east_01: -61121928
-      magic_hat_run_west_01: -117130105
-      char_a_p1_5hat_pnty_v04_31: -226012892
-      char_a_p1_5hat_pnty_v04_18: 584359432
-      magic_hat_run_west_02: -111584664
-      char_a_p1_5hat_pnty_v04_26: 2016412156
-      char_a_p1_5hat_pnty_v04_10: -588550500
-      magic_hat_walk_east_04: 2016412156
-      magic_hat_run_east_02: 2132811821
-      magic_hat_display: 879417079
+      gold_armor_walk_west_02: 772473504
+      gold_armor_run_south_02: 1217210769
+      gold_armor_walk_north_04: 1722357343
+      gold_armor_21: -951090759
+      gold_armor_walk_south_01: 2114731037
+      gold_armor_walk_north_01: 1849874383
+      gold_armor_walk_west_05: -1201619916
+      gold_armor_14: 636820213
+      gold_armor_3: 497568683
+      gold_armor_walk_west_03: 618187916
+      gold_armor_walk_south_06: 486495330
+      gold_armor_run_north_02: -614985176
+      gold_armor_walk_south_03: 707872331
+      gold_armor_walk_east_01: -2099203129
+      gold_armor_walk_north_02: 1370087559
+      gold_armor_4: -513093034
+      gold_armor_display: -829754981
+      gold_armor_walk_south_04: -853572374
+      gold_armor_6: -1896314610
+      gold_armor_11: -1200889494
+      gold_armor_stand_north_01: 1564976282
+      gold_armor_run_south_01: 199686315
+      gold_armor_30: 2080300541
+      gold_armor_19: 1484232681
+      gold_armor_run_west_02: 1939422523
+      gold_armor_walk_south_05: 58647836
+      gold_armor_walk_north_05: -368946132
+      gold_armor_stand_east_01: -1846495363
+      gold_armor_5: -1921314734
+      gold_armor_walk_north_03: -1511364198
+      gold_armor_9: 1342109856
+      gold_armor_walk_east_06: -252956159
+      gold_armor_walk_south_02: 1523516132
+      gold_armor_run_east_02: 298137186
+      gold_armor_12: 1425646783
+      gold_armor_23: -891575761
+      gold_armor_run_west_01: -377460457
+      gold_armor_31: 639566658
+      gold_armor_walk_east_05: 587469259
+      gold_armor_stand_south_01: 1073432444
+      gold_armor_walk_east_03: -424551378
+      gold_armor_walk_west_04: 1555050437
+      gold_armor_7: 434665606
+      gold_armor_15: 315165509
+      gold_armor_25: 89601106
+      gold_armor_walk_west_06: -190676317
+      gold_armor_27: -537457235
+      gold_armor_20: -1105760206
+      gold_armor_22: 1337418786
+      gold_armor_walk_west_01: -458818101
+      gold_armor_17: -1686258133
+      gold_armor_walk_north_06: -256674678
+      gold_armor_29: 433424862
+      gold_armor_run_north_01: -1164259603
+      gold_armor_walk_east_02: 456656330
+      gold_armor_run_east_01: -1806231043
+      gold_armor_18: -1002613731
+      gold_armor_13: 283133234
+      gold_armor_10: 751174564
+      gold_armor_28: 1994833636
+      gold_armor_stand_west_01: 2114731037
+      gold_armor_walk_east_04: 480257626
+      gold_armor_26: -76266028
+      gold_armor_2: -24737317
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c2eb32cc67fd787c6bab1f8d0a2a3f24
+guid: 2a687b1c5008e6a5f90355691aa7e78d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: magic_hat_stand_south_01
+      name: short_hair_stand_south_01
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acac12a15b071857786fbc6e06911384
-      internalID: -2097616772
+      spriteID: 3b65ff3dfdf163411bd8ad22df7b47b4
+      internalID: 205185848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_1
+      name: char_a_p1_4har_dap1_v01_1
       rect:
         serializedVersion: 2
         x: 64
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63df25c51da28222d9d9ceb999d66db5
-      internalID: -74773441
+      spriteID: eea371264991b76cfa7be303ac52b1ed
+      internalID: -656077829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_2
+      name: char_a_p1_4har_dap1_v01_2
       rect:
         serializedVersion: 2
         x: 128
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89096a09ffe5bb3f0a5344c04db2614e
-      internalID: 2123053099
+      spriteID: da4b005002ab9ab15b3f9eed798abd9d
+      internalID: 1998772087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_3
+      name: char_a_p1_4har_dap1_v01_3
       rect:
         serializedVersion: 2
         x: 192
@@ -181,17 +181,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e95409045d7a5f96eb07734476bba211
-      internalID: 1860690706
+      spriteID: ddace79d863105f8caf27be1d73ac2a1
+      internalID: -1198097152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_4
+      name: short_hair_display
       rect:
         serializedVersion: 2
-        x: 256
+        x: 280
+        y: 489
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caab2539543fea37a2b68d91eddec2e
+      internalID: 359798840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_a_p1_4har_dap1_v01_5
+      rect:
+        serializedVersion: 2
+        x: 320
         y: 448
         width: 64
         height: 64
@@ -202,35 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 960b453d9de6b571c8e5618eae133aca
-      internalID: -2058639046
+      spriteID: dee2bda831e85d9c48808616dd0fdd5f
+      internalID: -1751103869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 448
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: feb020ad0db93e61eb14f5c4e3506c9f
-      internalID: -16421013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_6
+      name: char_a_p1_4har_dap1_v01_6
       rect:
         serializedVersion: 2
         x: 384
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9431533b3416693894f68f83aff0a64
-      internalID: 524442442
+      spriteID: dc40226ac03a2e3cc9dbde2e402eca8f
+      internalID: -801769699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_7
+      name: char_a_p1_4har_dap1_v01_7
       rect:
         serializedVersion: 2
         x: 448
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 906efecf362f125fbaafbbd489947ac0
-      internalID: 245548201
+      spriteID: 0b59e1e4cb5a2389bbaecb71a469f988
+      internalID: -315649807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_stand_north_01
+      name: short_hair_stand_north_01
       rect:
         serializedVersion: 2
         x: 0
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba93bff8dd073b572a4b947ea5ac491d
-      internalID: 654923410
+      spriteID: cf12692375d748f3ea7ab9fc19552cbb
+      internalID: 321885996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_9
+      name: char_a_p1_4har_dap1_v01_9
       rect:
         serializedVersion: 2
         x: 64
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a784f7891a3f296abf7963c71bb8d4b
-      internalID: -86455730
+      spriteID: 4da18d83d56baa421b1cc163e747bdf9
+      internalID: 1078605338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_10
+      name: char_a_p1_4har_dap1_v01_10
       rect:
         serializedVersion: 2
         x: 128
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b3f23794bcedd78a93c5cf0631c4be7
-      internalID: -706423059
+      spriteID: be3dd276d0994461db1c786c7552bb28
+      internalID: -2087242932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_11
+      name: char_a_p1_4har_dap1_v01_11
       rect:
         serializedVersion: 2
         x: 192
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a5b1e7951abc6198b613738e1a45fe
-      internalID: 99392030
+      spriteID: 06c000b8cf06eb9bf92dac14c66d00a1
+      internalID: -1112728645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_12
+      name: char_a_p1_4har_dap1_v01_12
       rect:
         serializedVersion: 2
         x: 256
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2e383b4d7f92b00187d56cb48a7476f
-      internalID: 2101504814
+      spriteID: 04ab8e191019b1bd79ef25cc782edf0d
+      internalID: 1675139861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_13
+      name: char_a_p1_4har_dap1_v01_13
       rect:
         serializedVersion: 2
         x: 320
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e03c73c7282fae8e18de5aa7bc8105f2
-      internalID: -856411990
+      spriteID: 268731408727783099098785bc8aea76
+      internalID: -1475721620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_14
+      name: char_a_p1_4har_dap1_v01_14
       rect:
         serializedVersion: 2
         x: 384
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c918dbdeb400c7250a026e707d6ffd8a
-      internalID: -628603960
+      spriteID: 43c11e8f2e5adc0cab91dac549a075e4
+      internalID: -1948757456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_15
+      name: char_a_p1_4har_dap1_v01_15
       rect:
         serializedVersion: 2
         x: 448
@@ -433,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1333f69af0003ab1bb0c67d2cc2e84a7
-      internalID: -1818554255
+      spriteID: 6dfb7aeb55ff8e31b9058b7221dfd41d
+      internalID: 1699659286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_stand_east_01
+      name: short_hair_stand_east_01
       rect:
         serializedVersion: 2
         x: 0
@@ -454,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f00ae6aa53e6ec9afa2142235e8c74f0
-      internalID: -61121928
+      spriteID: 2e1b79252bef1d60bb84a03e52c911d5
+      internalID: -1915475246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_17
+      name: char_a_p1_4har_dap1_v01_17
       rect:
         serializedVersion: 2
         x: 64
@@ -475,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adf76f0d73c139a00a4c23813e723092
-      internalID: 1377630894
+      spriteID: 4ce26e2b4427b4b368ea1ba814bf09b5
+      internalID: 1135713471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_18
+      name: char_a_p1_4har_dap1_v01_18
       rect:
         serializedVersion: 2
         x: 128
@@ -496,20 +496,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b5886a486a5888dd90931653499f166
-      internalID: -226012892
+      spriteID: 9fe6388dffefa38b0a2b8ffbdac1e636
+      internalID: 1704067751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_display
+      name: char_a_p1_4har_dap1_v01_19
       rect:
         serializedVersion: 2
-        x: 216
-        y: 361
-        width: 17
-        height: 12
+        x: 192
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,14 +517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 305e4586b79a592fc8e5ec837dd0182a
-      internalID: 879417079
+      spriteID: f924950ad6d9bffc0895ee5b4a0b676a
+      internalID: -1753088630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_20
+      name: char_a_p1_4har_dap1_v01_20
       rect:
         serializedVersion: 2
         x: 256
@@ -538,14 +538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 978923d65da33b231bc37c87bc96282d
-      internalID: 655044166
+      spriteID: f43515ccd5fa25fdeadc5b81c0da55b0
+      internalID: -1997147196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_21
+      name: char_a_p1_4har_dap1_v01_21
       rect:
         serializedVersion: 2
         x: 320
@@ -559,14 +559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b2da8b248024408986a721c7534a200
-      internalID: 981655396
+      spriteID: 20c48dd43aa2ab7078b40d1bc3dab471
+      internalID: -804673850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_22
+      name: char_a_p1_4har_dap1_v01_22
       rect:
         serializedVersion: 2
         x: 384
@@ -580,14 +580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ae184d7f8159acddb7b64029d874227
-      internalID: -923312827
+      spriteID: b8b4c789515854e49a178fd77a110973
+      internalID: -940203240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_23
+      name: char_a_p1_4har_dap1_v01_23
       rect:
         serializedVersion: 2
         x: 448
@@ -601,14 +601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 135c4af4360c719d3a97ffcc5923c4d9
-      internalID: 693040500
+      spriteID: dc42acd4c4d65cf24a228019b4402a62
+      internalID: 1600406602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_stand_west_01
+      name: short_hair_stand_west_01
       rect:
         serializedVersion: 2
         x: 0
@@ -622,14 +622,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 041e8a4fe633bd3979478d4a3822cf85
-      internalID: -2044674098
+      spriteID: e10a25a351509fe3caf163eedfed088d
+      internalID: -1551857438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_25
+      name: char_a_p1_4har_dap1_v01_25
       rect:
         serializedVersion: 2
         x: 64
@@ -643,14 +643,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3a6debed6477e1aa84d8f6ccee19af7
-      internalID: 1443311098
+      spriteID: 3a7cd7774f5ba518c851bcfdebf42610
+      internalID: -1487662111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_26
+      name: char_a_p1_4har_dap1_v01_26
       rect:
         serializedVersion: 2
         x: 128
@@ -664,14 +664,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6af259ff5286b45628cb71562b09e725
-      internalID: 806152539
+      spriteID: ee0dbb898132a1cc2a82afb4c1186f85
+      internalID: -851715304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_27
+      name: char_a_p1_4har_dap1_v01_27
       rect:
         serializedVersion: 2
         x: 192
@@ -685,14 +685,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44d60c409b724fa398f7fd2e02892844
-      internalID: 274614720
+      spriteID: c461c8e1664f3930e8570b99509f2a57
+      internalID: -843668023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_28
+      name: char_a_p1_4har_dap1_v01_28
       rect:
         serializedVersion: 2
         x: 256
@@ -706,14 +706,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b77f234a895d78dbb45541cbe796519
-      internalID: -487504813
+      spriteID: b8fb2eb055a4e4797b74e4d8a8de64fe
+      internalID: 743751019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_29
+      name: char_a_p1_4har_dap1_v01_29
       rect:
         serializedVersion: 2
         x: 320
@@ -727,14 +727,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c8acf9ab750f7b93ac727079c45eb55
-      internalID: 1202482862
+      spriteID: e090641f199efb41e85613bef5fe3c33
+      internalID: 1410959022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_30
+      name: char_a_p1_4har_dap1_v01_30
       rect:
         serializedVersion: 2
         x: 384
@@ -748,14 +748,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 924784916aeff7a7ea009099a9716be3
-      internalID: 261001599
+      spriteID: 05e9c02f1e21419189d1d697dbcb8f55
+      internalID: 1020497372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_5hat_pnty_v04_31
+      name: char_a_p1_4har_dap1_v01_31
       rect:
         serializedVersion: 2
         x: 448
@@ -769,14 +769,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 955c50461bd8a01ee8be1d039c0255eb
-      internalID: 415210859
+      spriteID: c465093c5c7daaa7596883b6b12c5bbf
+      internalID: -803771893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_01
+      name: short_hair_walk_south_01
       rect:
         serializedVersion: 2
         x: 0
@@ -790,14 +790,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7551034f56962e14c8770def7335499e
-      internalID: 716571205
+      spriteID: 719c6dab7753ee691950d49393dbdbc6
+      internalID: 1970501920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_02
+      name: short_hair_walk_south_02
       rect:
         serializedVersion: 2
         x: 64
@@ -811,14 +811,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff97a7d9472818fcf96e692b15610d9f
-      internalID: -1588353755
+      spriteID: 8cf5f20673b9d878a9369b6d1c85c675
+      internalID: 724246964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_03
+      name: short_hair_walk_south_03
       rect:
         serializedVersion: 2
         x: 128
@@ -832,14 +832,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51d3b27b6ab9a7478ab2fd17c19d4c80
-      internalID: -2021069541
+      spriteID: bfc97ad4b52e816a1b6e6abb49b093e8
+      internalID: 1636952181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_04
+      name: short_hair_walk_south_04
       rect:
         serializedVersion: 2
         x: 192
@@ -853,14 +853,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48e89e6e45e9ee64a8d76eec3f154c0e
-      internalID: -867955439
+      spriteID: cee180ffc61336e9fb9da721fc519545
+      internalID: -883144852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_05
+      name: short_hair_walk_south_05
       rect:
         serializedVersion: 2
         x: 256
@@ -874,14 +874,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ce73fa45f55dd879897e25865be7a74
-      internalID: -1177000117
+      spriteID: 6de991be88a367c6891a508aa3e2e643
+      internalID: 2065934900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_south_06
+      name: short_hair_walk_south_06
       rect:
         serializedVersion: 2
         x: 320
@@ -895,14 +895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 510937693dd039409bcd582f4e4600a8
-      internalID: 156173283
+      spriteID: f49e6a319c339decba2455b454aaf0e0
+      internalID: -1190706032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_south_01
+      name: short_hair_run_south_01
       rect:
         serializedVersion: 2
         x: 384
@@ -916,14 +916,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98eb9f080d6c89c1ea1b420ca4aca894
-      internalID: 1631364809
+      spriteID: a56d7ca20bfe78d21b2b42cc2b47a0fb
+      internalID: 1251964349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_south_02
+      name: short_hair_run_south_02
       rect:
         serializedVersion: 2
         x: 448
@@ -937,14 +937,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4083ac40b00debed3b1a0fb3d54e7342
-      internalID: -196486563
+      spriteID: f001b6badb09389b68e09d05b0f4a9cb
+      internalID: 1550428651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_01
+      name: short_hair_walk_north_01
       rect:
         serializedVersion: 2
         x: 0
@@ -958,14 +958,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c2f861796a4e795c878f37ea3281bc7
-      internalID: -801137356
+      spriteID: ffbd28f4acca12ae6b4221278afde9c1
+      internalID: -1528531169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_02
+      name: short_hair_walk_north_02
       rect:
         serializedVersion: 2
         x: 64
@@ -979,14 +979,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a9b97a458f9ff1e19767eaf5ea87ba0
-      internalID: 66642848
+      spriteID: 7e2aa9542611a32a784ace14d40556ba
+      internalID: 775536855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_03
+      name: short_hair_walk_north_03
       rect:
         serializedVersion: 2
         x: 128
@@ -1000,14 +1000,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ae848d812b2a909c8f02815b7744d7e
-      internalID: -919050815
+      spriteID: c52587b3055ebb94cbeb15d636c673ce
+      internalID: -623290669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_04
+      name: short_hair_walk_north_04
       rect:
         serializedVersion: 2
         x: 192
@@ -1021,14 +1021,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bc3c8e4765de0f05a145be47d83f1b0
-      internalID: -1008893299
+      spriteID: b0924251a9fd3238c953763676914643
+      internalID: 1057662670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_05
+      name: short_hair_walk_north_05
       rect:
         serializedVersion: 2
         x: 256
@@ -1042,14 +1042,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9cc9542d90858d51a85bd9bdc610fb4
-      internalID: -910907615
+      spriteID: 1920c300302de7d95abdbe7cedd4053d
+      internalID: -1608641831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_north_06
+      name: short_hair_walk_north_06
       rect:
         serializedVersion: 2
         x: 320
@@ -1063,14 +1063,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30e0721a2d3f7d0d9b7aaa3bff987287
-      internalID: 1665210071
+      spriteID: fa5f8933517dd18508f14b1c5d48bd09
+      internalID: 268529075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_north_01
+      name: short_hair_run_north_01
       rect:
         serializedVersion: 2
         x: 384
@@ -1084,14 +1084,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee7c9e1e261ffce8dac1ab86478069c2
-      internalID: -442349247
+      spriteID: cee2a146508f902db95b023b642719ff
+      internalID: 376256736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_north_02
+      name: short_hair_run_north_02
       rect:
         serializedVersion: 2
         x: 448
@@ -1105,18 +1105,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbc6fe38149da52739effbac81a96f65
-      internalID: -617640163
+      spriteID: 61e494a4a8e5d17df97a5216ffae2551
+      internalID: 371656480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_01
+      name: short_hair_walk_east_01
       rect:
         serializedVersion: 2
         x: 0
-        y: 65
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1126,14 +1126,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dee848eadaad0ba0e86fecf35bd8a0dd
-      internalID: 879442471
+      spriteID: dbf2b65149acfb8238b88e463709f66e
+      internalID: -1632148399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_02
+      name: short_hair_walk_east_02
       rect:
         serializedVersion: 2
         x: 64
@@ -1147,14 +1147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1383775eee5a9bd59dbca390fde24a1
-      internalID: -21294676
+      spriteID: 4cd553aac79c80c7da5e89c558a0ee6c
+      internalID: -1548929148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_03
+      name: short_hair_walk_east_03
       rect:
         serializedVersion: 2
         x: 128
@@ -1168,14 +1168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdef2e1d027a688d0bde43e2b68a4132
-      internalID: 1213010775
+      spriteID: 1e4b536c276cc4cfb97e46760537861d
+      internalID: -265035720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_04
+      name: short_hair_walk_east_04
       rect:
         serializedVersion: 2
         x: 192
@@ -1189,14 +1189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc6a6c5e4f2a4980bb39041880421970
-      internalID: 2016412156
+      spriteID: 027419ab65974702cbe186062d31802f
+      internalID: -1029697784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_05
+      name: short_hair_walk_east_05
       rect:
         serializedVersion: 2
         x: 256
@@ -1210,14 +1210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fca21b7dfc1bf9a7ca827cff8f2e8f17
-      internalID: 261425352
+      spriteID: 4f2e092c93d8da14e80e6116df9f233d
+      internalID: -1590061770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_east_06
+      name: short_hair_walk_east_06
       rect:
         serializedVersion: 2
         x: 320
@@ -1231,14 +1231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a59514f24b487d8aa8d559e628d9cc8d
-      internalID: 1624293270
+      spriteID: d2620f69f85b91bb2b02ddd65a1c4692
+      internalID: -1272484183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_east_01
+      name: short_hair_run_east_01
       rect:
         serializedVersion: 2
         x: 384
@@ -1252,14 +1252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 844826df47d4489e384293d2b6c85a19
-      internalID: 584359432
+      spriteID: aeb42be3e74317842b75f2ccbfec943c
+      internalID: -1599228867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_east_02
+      name: short_hair_run_east_02
       rect:
         serializedVersion: 2
         x: 448
@@ -1273,14 +1273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3da1c087b471823b19223d7549a38aae
-      internalID: 2132811821
+      spriteID: 360280f683b3b1eae8f7b3814e458859
+      internalID: -1089869059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_01
+      name: short_hair_walk_west_01
       rect:
         serializedVersion: 2
         x: 0
@@ -1294,14 +1294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09f7a62f9dcbb010383d00fcd6c27d46
-      internalID: 478957075
+      spriteID: e057dabb8bb581ccabe881f0944d0e8d
+      internalID: 959416021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_02
+      name: short_hair_walk_west_02
       rect:
         serializedVersion: 2
         x: 64
@@ -1315,14 +1315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89940e5c988c1599bac840052c67d6d8
-      internalID: -588550500
+      spriteID: e5fc5380b709ef60087ac5dceb060c31
+      internalID: 1790817275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_03
+      name: short_hair_walk_west_03
       rect:
         serializedVersion: 2
         x: 128
@@ -1336,14 +1336,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e72460a473ed40d58a263192e2ade2fc
-      internalID: 419887647
+      spriteID: 7a21925b13136a742acfcef6174a93f7
+      internalID: 2064954641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_04
+      name: short_hair_walk_west_04
       rect:
         serializedVersion: 2
         x: 192
@@ -1357,14 +1357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7046347beb1edcccdacd97e76e68f37c
-      internalID: 1383780218
+      spriteID: b1d38728cdbb124f690402cffc9688e4
+      internalID: -1094727374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_05
+      name: short_hair_walk_west_05
       rect:
         serializedVersion: 2
         x: 256
@@ -1378,14 +1378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a51a0fb6b8d7398c08c4fb877cdfc834
-      internalID: 2042996678
+      spriteID: 0e51b5d0cc0bd54f1ae738a0f28a8470
+      internalID: -1139933994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_walk_west_06
+      name: short_hair_walk_west_06
       rect:
         serializedVersion: 2
         x: 320
@@ -1399,14 +1399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9e789da08134befa99bdec75011ba85
-      internalID: -1165660618
+      spriteID: 3394962d2685babc0814ccad66387889
+      internalID: 677648091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_west_01
+      name: short_hair_run_west_01
       rect:
         serializedVersion: 2
         x: 384
@@ -1420,14 +1420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b10e9a63f7feec965baaef8769fbdd87
-      internalID: -117130105
+      spriteID: 4916f3009b146c19080dcb922eaf48d8
+      internalID: -1630790361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magic_hat_run_west_02
+      name: short_hair_run_west_02
       rect:
         serializedVersion: 2
         x: 448
@@ -1441,8 +1441,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea12d0107e386af14a920829d6514370
-      internalID: -111584664
+      spriteID: 7091c467ef55425da83a7da18d91e20b
+      internalID: -357962313
       vertices: []
       indices: 
       edges: []
@@ -1458,70 +1458,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      magic_hat_walk_east_01: 879442471
-      magic_hat_walk_west_05: 2042996678
-      char_a_p1_5hat_pnty_v04_25: 1443311098
-      magic_hat_walk_east_02: -21294676
-      char_a_p1_5hat_pnty_v04_30: -442349247
-      magic_hat_walk_west_06: -1165660618
-      char_a_p1_5hat_pnty_v04_2: -867955439
-      magic_hat_stand_west_01: -2044674098
-      magic_hat_walk_north_02: 66642848
-      char_a_p1_5hat_pnty_v04_20: 716571205
-      magic_hat_walk_north_06: 1665210071
-      magic_hat_walk_west_04: 1383780218
-      char_a_p1_5hat_pnty_v04_1: -910907615
-      char_a_p1_5hat_pnty_v04_21: -2021069541
-      magic_hat_walk_north_03: -919050815
-      magic_hat_run_east_01: 584359432
-      magic_hat_walk_east_06: 1624293270
-      magic_hat_walk_south_03: -2021069541
-      magic_hat_run_north_01: -442349247
-      char_a_p1_5hat_pnty_v04_28: 1377630894
-      magic_hat_walk_north_04: -1008893299
-      magic_hat_stand_south_01: -2097616772
-      magic_hat_walk_east_03: 1213010775
-      char_a_p1_5hat_pnty_v04_17: 693040500
-      char_a_p1_5hat_pnty_v04_23: 419887647
-      magic_hat_walk_west_03: 419887647
-      char_a_p1_5hat_pnty_v04_13: -628603960
-      char_a_p1_5hat_pnty_v04_14: 274614720
-      char_a_p1_5hat_pnty_v04_27: -196486563
-      magic_hat_run_north_02: -617640163
-      magic_hat_walk_north_05: -910907615
-      char_a_p1_5hat_pnty_v04_3: 245548201
-      char_a_p1_5hat_pnty_v04_7: 99392030
-      char_a_p1_5hat_pnty_v04_11: 1202482862
-      magic_hat_walk_south_06: 156173283
-      magic_hat_walk_south_01: 716571205
-      magic_hat_walk_west_02: -588550500
-      magic_hat_walk_north_01: -801137356
-      char_a_p1_5hat_pnty_v04_29: -86455730
-      char_a_p1_5hat_pnty_v04_9: 1383780218
-      magic_hat_walk_south_02: -1588353755
-      magic_hat_run_south_02: -196486563
-      char_a_p1_5hat_pnty_v04_12: 66642848
-      magic_hat_stand_north_01: 654923410
-      char_a_p1_5hat_pnty_v04_15: 261425352
-      char_a_p1_5hat_pnty_v04_4: -16421013
-      char_a_p1_5hat_pnty_v04_5: 524442442
-      char_a_p1_5hat_pnty_v04_6: 156173283
-      magic_hat_walk_south_05: -1177000117
-      char_a_p1_5hat_pnty_v04_22: -21294676
-      magic_hat_run_south_01: 1631364809
-      magic_hat_walk_south_04: -867955439
-      magic_hat_walk_east_05: 261425352
-      magic_hat_walk_west_01: 478957075
-      magic_hat_stand_east_01: -61121928
-      magic_hat_run_west_01: -117130105
-      char_a_p1_5hat_pnty_v04_31: -226012892
-      char_a_p1_5hat_pnty_v04_18: 584359432
-      magic_hat_run_west_02: -111584664
-      char_a_p1_5hat_pnty_v04_26: 2016412156
-      char_a_p1_5hat_pnty_v04_10: -588550500
-      magic_hat_walk_east_04: 2016412156
-      magic_hat_run_east_02: 2132811821
-      magic_hat_display: 879417079
+      short_hair_walk_west_05: -1139933994
+      short_hair_walk_south_06: 1251964349
+      short_hair_stand_east_01: -1551857438
+      char_a_p1_4har_dap1_v01_27: -843668023
+      short_hair_run_west_01: -1630790361
+      short_hair_stand_south_01: 321885996
+      short_hair_walk_east_01: -1548929148
+      short_hair_walk_north_02: -623290669
+      char_a_p1_4har_dap1_v01_20: -1997147196
+      short_hair_walk_east_02: -265035720
+      char_a_p1_4har_dap1_v01_3: -1198097152
+      char_a_p1_4har_dap1_v01_18: 1704067751
+      char_a_p1_4har_dap1_v01_5: -1751103869
+      char_a_p1_4har_dap1_v01_19: -1753088630
+      short_hair_walk_west_01: 959416021
+      short_hair_stand_west_01: 1970501920
+      short_hair_walk_south_05: -1190706032
+      char_a_p1_4har_dap1_v01_1: -656077829
+      char_a_p1_4har_dap1_v01_28: 743751019
+      short_hair_stand_north_01: -1915475246
+      short_hair_walk_east_04: -1590061770
+      short_hair_run_north_02: -1632148399
+      short_hair_run_east_01: -1599228867
+      short_hair_walk_north_05: 268529075
+      char_a_p1_4har_dap1_v01_30: 1020497372
+      short_hair_walk_south_02: 1636952181
+      char_a_p1_4har_dap1_v01_7: -315649807
+      char_a_p1_4har_dap1_v01_17: 1135713471
+      char_a_p1_4har_dap1_v01_9: 1078605338
+      char_a_p1_4har_dap1_v01_22: -940203240
+      short_hair_walk_south_03: -883144852
+      char_a_p1_4har_dap1_v01_21: -804673850
+      short_hair_walk_south_04: 2065934900
+      short_hair_display: 359798840
+      char_a_p1_4har_dap1_v01_29: 1410959022
+      char_a_p1_4har_dap1_v01_11: -1112728645
+      short_hair_run_west_02: -357962313
+      short_hair_walk_north_03: 1057662670
+      char_a_p1_4har_dap1_v01_25: -1487662111
+      short_hair_walk_south_01: 724246964
+      char_a_p1_4har_dap1_v01_15: 1699659286
+      short_hair_walk_north_06: 376256736
+      char_a_p1_4har_dap1_v01_31: -803771893
+      short_hair_run_south_01: 1550428651
+      short_hair_walk_east_03: -1029697784
+      short_hair_walk_east_05: -1272484183
+      short_hair_run_south_02: -1528531169
+      short_hair_walk_west_02: 1790817275
+      short_hair_walk_west_03: 2064954641
+      short_hair_run_east_02: -1089869059
+      char_a_p1_4har_dap1_v01_10: -2087242932
+      char_a_p1_4har_dap1_v01_14: -1948757456
+      short_hair_run_north_01: 371656480
+      short_hair_walk_north_01: 775536855
+      char_a_p1_4har_dap1_v01_2: 1998772087
+      short_hair_walk_east_06: -1599228867
+      short_hair_walk_west_04: -1094727374
+      char_a_p1_4har_dap1_v01_12: 1675139861
+      char_a_p1_4har_dap1_v01_23: 1600406602
+      short_hair_walk_north_04: -1608641831
+      char_a_p1_4har_dap1_v01_26: -851715304
+      char_a_p1_4har_dap1_v01_13: -1475721620
+      char_a_p1_4har_dap1_v01_6: -801769699
+      short_hair_walk_west_06: 677648091
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

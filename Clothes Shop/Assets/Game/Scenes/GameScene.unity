@@ -405,6 +405,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55e4627fffe24f86a92a20e4912e0a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventory: {fileID: 1261449326}
+  shop: {fileID: 49571727}
 --- !u!1 &983485004
 GameObject:
   m_ObjectHideFlags: 0
@@ -15515,10 +15517,62 @@ PrefabInstance:
       propertyPath: m_UIInputModule
       value: 
       objectReference: {fileID: 643800923}
+    - target: {fileID: 950637607573151631, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_Size.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 950637607573151631, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_Size.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 950637607573151631, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 950637607573151631, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601099855479560413, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: uiManager
+      value: 
+      objectReference: {fileID: 643800925}
     - target: {fileID: 2601099855479560413, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
       propertyPath: inventoryUI
       value: 
       objectReference: {fileID: 1261449326}
+    - target: {fileID: 3266757396889814552, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_Size.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266757396889814552, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_Size.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266757396889814552, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266757396889814552, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552027870087798534, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_Size.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552027870087798534, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_Size.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552027870087798534, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552027870087798534, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6816734323082687714, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
       propertyPath: m_Name
       value: Player
@@ -15567,6 +15621,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7011998901061323994, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7093284315451367590, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
       propertyPath: m_Size.x
       value: 4
@@ -15583,7 +15641,15 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7383476110591961611, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8178826866045210450, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673400684259071369, guid: 425eba81643e32b4ea7a2aa8dbf685de, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 0}
