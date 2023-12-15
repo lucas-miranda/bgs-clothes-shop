@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: HatItemData
   m_EditorClassIdentifier: 
   icon: {fileID: 89609489, guid: 43bfc21390f9757b4a43cce7313008a9, type: 3}
+  sprite: {fileID: 79141768, guid: 43bfc21390f9757b4a43cce7313008a9, type: 3}
   animatorController: {fileID: 22100000, guid: 95c9057b16bcf543c8ff8e3910e4facb, type: 2}

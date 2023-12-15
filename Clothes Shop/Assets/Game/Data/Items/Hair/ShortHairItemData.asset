@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: ShortHairItemData
   m_EditorClassIdentifier: 
   icon: {fileID: 359798840, guid: 2a687b1c5008e6a5f90355691aa7e78d, type: 3}
+  sprite: {fileID: 205185848, guid: 2a687b1c5008e6a5f90355691aa7e78d, type: 3}
   animatorController: {fileID: 22100000, guid: 49a832e3fb2c40bf2af39c0ba1cd0caf, type: 2}

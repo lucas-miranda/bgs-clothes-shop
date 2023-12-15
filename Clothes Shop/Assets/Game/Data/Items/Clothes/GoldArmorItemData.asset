@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: GoldArmorItemData
   m_EditorClassIdentifier: 
   icon: {fileID: -829754981, guid: c7f4bfca2110c2eadb1a25d42b49ea1c, type: 3}
+  sprite: {fileID: -1904379436, guid: c7f4bfca2110c2eadb1a25d42b49ea1c, type: 3}
   animatorController: {fileID: 22100000, guid: ca628d6d1d761ebc3a0c1e57567f3522, type: 2}

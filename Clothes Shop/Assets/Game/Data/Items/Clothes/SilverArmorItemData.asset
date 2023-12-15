@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: SilverArmorItemData
   m_EditorClassIdentifier: 
   icon: {fileID: 2040932321, guid: 453a857bc3002b97ebb1731ae2009841, type: 3}
+  sprite: {fileID: 1550986235, guid: 453a857bc3002b97ebb1731ae2009841, type: 3}
   animatorController: {fileID: 22100000, guid: f4f9eee81c5fc12938cfd23675835b1c, type: 2}

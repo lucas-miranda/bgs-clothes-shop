@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: LongHairItemData
   m_EditorClassIdentifier: 
   icon: {fileID: -687870826, guid: b8104a4fdc434eabb94935059c57bc51, type: 3}
+  sprite: {fileID: 1659938855, guid: b8104a4fdc434eabb94935059c57bc51, type: 3}
   animatorController: {fileID: 22100000, guid: 5918c0fe8f272060fa48ee72d008397f, type: 2}

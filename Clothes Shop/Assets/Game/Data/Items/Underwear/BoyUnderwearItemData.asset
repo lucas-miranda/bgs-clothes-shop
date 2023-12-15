@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: BoyUnderwearItemData
   m_EditorClassIdentifier: 
   icon: {fileID: 990878023, guid: 639dfe6ff76766132883d5a09a405542, type: 3}
+  sprite: {fileID: -285750240, guid: 639dfe6ff76766132883d5a09a405542, type: 3}
   animatorController: {fileID: 22100000, guid: 99a1561b43ef566f9968a79c15e6e7c9, type: 2}

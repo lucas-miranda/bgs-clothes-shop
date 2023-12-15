@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions;
 
+[RequireComponent(typeof(Outfit))]
 public class ClothierNPC : MonoBehaviour {
     public ShopUI shopUI;
     public ShopData shopData;
@@ -15,6 +16,9 @@ public class ClothierNPC : MonoBehaviour {
 
         shopUI.OnEntryClicked += ShopEntryClicked;
         availableItems = new List<ShopEntryData>(shopData.items);
+
+        Outfit outfit = GetComponent<Outfit>();
+        outfit.ChangeState(false, 0, -1, true);
     }
 
     void Update() {

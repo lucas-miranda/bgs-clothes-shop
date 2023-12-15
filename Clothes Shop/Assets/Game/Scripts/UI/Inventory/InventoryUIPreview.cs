@@ -33,20 +33,13 @@ public class InventoryUIPreview {
     }
 
     private void UpdatePartElement(VisualElement element, ItemData item) {
-        if (item == null || item.icon == null) {
-            element.style.display = DisplayStyle.None;
-            return;
-        }
-
-        Sprite sprite = SpriteUtil.GetContainingNameOrFirstOrNull(item.animatorController, "south");
-
-        if (sprite == null) {
+        if (item == null || item.icon == null || item.sprite == null) {
             element.style.display = DisplayStyle.None;
             return;
         }
 
         element.style.display = DisplayStyle.Flex;
-        element.style.backgroundImage = new StyleBackground(sprite);
+        element.style.backgroundImage = new StyleBackground(item.sprite);
     }
 
     private StyleBackground CreateBackgroundOrNull(ItemData item) {

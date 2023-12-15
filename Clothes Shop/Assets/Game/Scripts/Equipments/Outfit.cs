@@ -14,8 +14,10 @@ public class Outfit : MonoBehaviour {
     public bool canAutoEquip = true;
 
     private Dictionary<EquipKind, Part> parts = new Dictionary<EquipKind, Part>();
+    private Animator[] animators;
 
     void Awake() {
+        animators = GetComponentsInChildren<Animator>();
         InitializeParts();
     }
 
@@ -167,6 +169,23 @@ public class Outfit : MonoBehaviour {
         return true;
     }
 
+    public void ChangeState(bool isWalking, int faceHDirection, int faceVDirection, bool force = false) {
+        // update each body part animator
+        foreach (Animator animator in animators) {
+            if (animator.runtimeAnimatorController == null) {
+                // skip empty parts
+                continue;
+            }
+
+            animator.SetBool("Walking", isWalking);
+            if (isWalking || force) {
+                // only change face direction when moving
+                animator.SetFloat("FaceHorizontal", faceHDirection);
+                animator.SetFloat("FaceVertical", faceVDirection);
+            }
+        }
+    }
+
     private void InitializeParts() {
         parts.Clear();
 
@@ -196,22 +215,13 @@ public class Outfit : MonoBehaviour {
             }
 
             animator.runtimeAnimatorController = data.animatorController;
-            // TODO  use character direction at editor to choose appropriated direction
-            renderer.sprite = GetSpriteOrNull("south");
-        }
 
-        /// <summary>
-        /// Try to get a sprite using a direction name.
-        /// Otherwise, if none was found, returns null.
-        /// </summary>
-        private Sprite GetSpriteOrNull(string directionName) {
 #if UNITY_EDITOR
-            // try to retrieve a sprite using animation clips from animator's controller
-            return SpriteUtil.GetContainingNameOrFirstOrNull(animator.runtimeAnimatorController, directionName);
+            // TODO  use character direction at editor to choose appropriated direction
+            renderer.sprite = data.sprite;
 #else
             // nothing to be done
             // animator will handle sprite changing for us
-            return null;
 #endif
         }
     }

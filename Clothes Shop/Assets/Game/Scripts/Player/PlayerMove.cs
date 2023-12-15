@@ -1,18 +1,18 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(Outfit))]
 public class PlayerMove : MonoBehaviour {
     public float speed;
 
     private Rigidbody2D body;
-    private Animator[] animators;
+    private Outfit outfit;
     private Vector2 axis;
     private FaceDirection faceDirection;
 
     void Start() {
         body = GetComponent<Rigidbody2D>();
-        animators = GetComponentsInChildren<Animator>();
+        outfit = GetComponent<Outfit>();
     }
 
     void Update() {
@@ -41,19 +41,6 @@ public class PlayerMove : MonoBehaviour {
             isWalking = false;
         }
 
-        // update each body part animator
-        foreach (Animator animator in animators) {
-            if (animator.runtimeAnimatorController == null) {
-                // skip empty parts
-                continue;
-            }
-
-            animator.SetBool("Walking", isWalking);
-            if (isWalking) {
-                // only change face direction when moving
-                animator.SetFloat("FaceHorizontal", hDir);
-                animator.SetFloat("FaceVertical", vDir);
-            }
-        }
+        outfit.ChangeState(isWalking, hDir, vDir);
     }
 }
