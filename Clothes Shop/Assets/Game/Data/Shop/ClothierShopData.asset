@@ -13,4 +13,11 @@ MonoBehaviour:
   m_Name: ClothierShopData
   m_EditorClassIdentifier: 
   items:
+  - {fileID: 11400000, guid: f463ee56f5dcaa083892021d091e443f, type: 2}
+  - {fileID: 11400000, guid: 5acbd1e1436093eeaa17c581a17abed0, type: 2}
+  - {fileID: 11400000, guid: 953962823c1b74359a1513c5b62483f6, type: 2}
   - {fileID: 11400000, guid: 0101dc355f6c525d4bc24d478b8bbc45, type: 2}
+  - {fileID: 11400000, guid: 383788be0ee2b2cb3968041b7c1303ff, type: 2}
+  - {fileID: 11400000, guid: 1bfe9939e786bb5469a4452e3ff1805b, type: 2}
+  - {fileID: 11400000, guid: 783b630238562f299845b7aa6736ed60, type: 2}
+  - {fileID: 11400000, guid: d8b2e51471097579f866a3ccce110abc, type: 2}
